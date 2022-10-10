@@ -935,6 +935,22 @@ Author: inoahdev
 Name: LaunchInSafeMode
 
 Package: com.ivanc.accent
+Version: 1.4.0-6+debug
+Architecture: iphoneos-arm
+Maintainer: Ivan Cristina <ivancristina5@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), applist
+Filename: ./debs/com.ivanc.accent_1.4.0-6+debug_iphoneos-arm.deb
+Size: 38180
+MD5sum: 55b16be6495d64e7cc5734e35b055e99
+SHA1: 39a9e9998f2fc2f079348974bda94b157dc7a000
+SHA256: eaaff28b8fd5159db12debe86a6aadf1b27bf6310afa0d02daaf21c54ad8e2a8
+Section: Tweaks
+Description: iOS accent colors in macOS style!
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Name: Accent
+
+Package: com.ivanc.accent
 Version: 1.5.0-6+debug
 Architecture: iphoneos-arm
 Maintainer: Ivan Cristina <ivancristina5@gmail.com>
@@ -1300,6 +1316,22 @@ SHA256: 0ca790dac9bc05ef15f0994ac4428fa28bf99db5b5fa0adc972cba97ffe93fa7
 Description: NotiBlock - Block notifications and take control of your digital well-being
  Push notifications are a gift and a curse, allowing you to get notified instantly of important information, but also opening a door into letting people and apps interrupt your life without your consent. The tools Apple gives us are not powerful enough to stop the spam of notifications, and required a more advanced tool set.
 Name: NotiBlock
+
+Package: com.shepgoba.photoinfo
+Version: 1.0-4
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.shepgoba.photoinfo_1.0-4_iphoneos-arm.deb
+Size: 4406
+MD5sum: 76c57f28d7ff52c92f8c97c73e39ecc9
+SHA1: 5695b4b5f44c89d041c480c19b43861e3c7fd8d0
+SHA256: c595d8c32e579f3054a10ed2b4495b3e5a1ba49e229a553c6f54d46e67941aa1
+Section: Tweaks
+Description: Show photo resolution and disk usage in app
+Author: shepgoba
+Name: PhotoInfo
 
 Package: com.shepgoba.photoinfo
 Version: 1.0-5
@@ -1740,6 +1772,24 @@ Section: Tweaks
 Description: Get a notification when a new song starts
 Author: HyperDev <hyper.devv@gmail.com>
 Name: Playing
+
+Package: dev.traurige.libkitten
+Version: 1.3.3-3+debug
+Architecture: iphoneos-arm
+Maintainer: Traurige
+Installed-Size: 172
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Filename: ./debs/dev.traurige.libkitten_1.3.3-3+debug_iphoneos-arm.deb
+Size: 11492
+MD5sum: 118c11bdb0ef780dddad79200404a3fb
+SHA1: bb41c80010fd71322b8eb7b9a6876d3c30f31004
+SHA256: 6f9f5a98fcbd0f3611f25ece959a87793c46444303679e4b4c65ede8479fc552
+Section: System
+Description: Collection of image and color calculations
+Tag: role::developer
+Author: Traurige
+Name: libKitten
 
 Package: dev.traurige.libkitten
 Version: 1.3.3-4+debug
