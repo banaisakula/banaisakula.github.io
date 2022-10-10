@@ -1,1377 +1,2297 @@
-Package: com.haoict.camerashuttersounddisabler
-Version: 0.1.0
+Package: ai.paisseon.peepreborn
+Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 0
+Maintainer: Paisseon
+Installed-Size: 388
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/ai.paisseon.peepreborn_1.1_iphoneos-arm.deb
+Size: 28234
+MD5sum: c5da8f067af6596bbbbe8667a54faa1e
+SHA1: bfc246ff55dae5154b05e6120e3eaa5dca01d6b5
+SHA256: 516bd66064bb00edadb32f48b07f14ef400ade28db3416e1767a95db6bdda142
+Description: Hide status bar with a tap
+Author: Paisseon
+Depiction: https://paisseon.github.io/info/peepreborn.html
+Icon: https://paisseon.github.io/info/peepreborn.png
+Name: Peep Reborn
+
+Package: cf.1di4r.hidedots
+Version: 1.5-4+debug
+Architecture: iphoneos-arm
+Maintainer: 1di4r
+Installed-Size: 364
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/cf.1di4r.hidedots_1.5-4+debug_iphoneos-arm.deb
+Size: 13962
+MD5sum: dbecccfcefa6d6370ca98bc370119e54
+SHA1: 715aebaba50ab29b8d173dc99a2e8dd1e09c9142
+SHA256: e75ad8d81a97e29efad7792341c5fb1998bb958b47bd92cafa0cf1138fbdaecd
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: 1di4r
+Name: HideDots
+
+Package: cf.1di4r.spotlightizer
+Version: 2.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: 1di4r
+Installed-Size: 292
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
+Filename: ./debs/cf.1di4r.spotlightizer_2.0-4+debug_iphoneos-arm.deb
+Size: 14014
+MD5sum: d4e1310013f674725087d523acfc4bdf
+SHA1: a09caa52a888de9b3964ee1f88b92a13a53cc40a
+SHA256: 1d8470ad587d9df0a0bd3d7f59cd6709ab1bbc95419cbc72ec54db92d3ad6de7
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: 1di4r
+Icon: file:///Library/PreferenceBundles/spotlightizer_pref.bundle/icon@3x.png
+Name: Spotlightizer
+
+Package: com.atar13.houdini
+Version: 1.4-5+debug
+Architecture: iphoneos-arm
+Maintainer: atar13 <atar13dev@gmail.com>
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.atar13.houdini_1.4-5+debug_iphoneos-arm.deb
+Size: 36386
+MD5sum: 7e83549c2170cc782eb2b9896fa052bf
+SHA1: 7d55ee9ab1a97435a72f46862fd676cc6b1b5eee
+SHA256: 57303fabc3ee63b5aa0512bbf1e1a289f3b48ef0f2231d51f2d7ef9ebe419cc8
+Section: Tweaks
+Description: Hides the lock screen clock until the user manually taps/holds down on the screen.
+Author: atar13 <atar13dev@gmail.com>
+Depiction: https://atar13.github.io/depictions/com.atar13.houdini
+Icon: https://atar13.github.io/assets/package_icons/houdini.png
+Name: Houdini
+
+Package: com.atar13.vaon
+Version: 1.0.9-5+debug
+Architecture: iphoneos-arm
+Maintainer: atar13 <atar13dev@gmail.com>
+Installed-Size: 680
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, ws.hbang.alderis (>= 1.1)
+Filename: ./debs/com.atar13.vaon_1.0.9-5+debug_iphoneos-arm.deb
+Size: 93074
+MD5sum: f7986617a9b9963a0ba98d10bca2d98d
+SHA1: 7ffaa9ba0749ef4a1ded668c2e57650ccd0463cf
+SHA256: b57f5e7e09bc9865501206432e90dd25f6bf9e22929e55c1c64b05c05aa009b1
+Section: Tweaks
+Description: Bluetooth battery information of connected/disconnected devices in the app switcher.
+Author: atar13 <atar13dev@gmail.com>
+Depiction: https://atar13.github.io/repo/com.atar13.vaon
+Icon: https://atar13.github.io/assets/package_icons/vaonIcon.png
+Name: Vaon
+
+Package: com.azzou.rounderls
+Version: 1.5-5+debug
+Architecture: iphoneos-arm
+Maintainer: Azzou
+Installed-Size: 2208
+Depends: mobilesubstrate, firmware (>= 13), ws.hbang.common (>= 1.16)
+Filename: ./debs/com.azzou.rounderls_1.5-5+debug_iphoneos-arm.deb
+Size: 1904128
+MD5sum: 2fe7e38e86db2f4110161d1cd6b86f34
+SHA1: 7afc8a72830dea4d32ad036e5a51e927b4a9f481
+SHA256: 75ee96e994162bcb2a58785d88d4534e102e28e946bc7c129ab5756f1498528a
+Section: Tweaks
+Description: A little tweak to make your LockScreen rounder !
+Author: Azzou
+Icon: https://raw.githubusercontent.com/AzzouDuGhetto/repo/master/depictions/rounderls/assets/icon.png
+Name: RounderLS
+Sileodepiction: https://raw.githubusercontent.com/AzzouDuGhetto/repo/master/depictions/rounderls/modernDepiction.json
+
+Package: com.beckettobrien.begone
+Version: 1.1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Beckett OBrien
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.beckettobrien.begone_1.1.0-5+debug_iphoneos-arm.deb
+Size: 4806
+MD5sum: f41a095463df6de1f2231d4cf7ab29cb
+SHA1: 0c3357d20468cea8cc91729ac6ee35ef79719413
+SHA256: af8c2c73aa3871ce84ccf5063dd3f4dbb79f8bc22d567c3fa96ffe9c3c18819d
+Section: Tweaks
+Description: Clear the notification badge from the 3D touch menu
+Author: Beckett OBrien
+Name: Begone
+
+Package: com.bismih.3developeraa
+Version: 1.1.1-7+debug
+Architecture: iphoneos-arm
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 176
+Depends: mobilesubstrate, flexdecrypt
+Filename: ./debs/com.bismih.3developeraa_1.1.1-7+debug_iphoneos-arm.deb
+Size: 9986
+MD5sum: 62590e605ebde46befe7bdadccc310f6
+SHA1: 5cb8a58c2198790ca72fd6f4bdf5a51e442e140c
+SHA256: a2ef1f676cfc21605d3459d8f0255f80f46cc946b12f747375503ca2b731039e
+Section: Tweaks
+Description: 3D Touch CC Low Power Mode for more options!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/Application Support/3DMorePower/icon.png
+Name: 3DMorePower
+
+Package: com.bismih.cn
+Version: 1.0.1-143+debug
+Architecture: iphoneos-arm
+Maintainer: bismih
+Installed-Size: 1212
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.spark.libsparkcolourpicker ,com.spark.libsparkapplist,com.opa334.ccsupport,ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.bismih.cn_1.0.1-143+debug_iphoneos-arm.deb
+Size: 564296
+MD5sum: c961b5a3eb73eaf1d088d1de35a2577a
+SHA1: 87d5e1c8ffed45374fe3fdf060c1c82c8d0f291a
+SHA256: ca44cb029f1cc9a5e0a53376794efb84c6587522a06944baee9fd8413dad5d80
+Section: Tweaks
+Description: My first tweak
+Author: bismih
+Name: AAA
+
+Package: com.brend0n.batteryhealthenabler
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 140
 Depends: mobilesubstrate
-Filename: ./debs/com.haoict.camerashuttersounddisabler_0.1.0_iphoneos-arm.deb
-Size: 1154
-MD5sum: 1187cb442ca3f53595b8f22dc4cbc2b2
-SHA1: 7b74e7d9bde28c7371c9a97adda78ca25c782588
-SHA256: c94104a64a3ef4b6f0a4d3fcadc41b57a410c3e13a9da73cc1b91678dad70fb3
+Filename: ./debs/com.brend0n.batteryhealthenabler_0.0.1-5+debug_iphoneos-arm.deb
+Size: 5926
+MD5sum: 0e76ab6eb9b4f4526d1c13cdb15faefe
+SHA1: c6117d52255d76dce5ddfa0e5b59a456e07a31e8
+SHA256: ff90f3e0ddac9f81963430a7a3fb76c3381447fc5c1a1e9c6bd83748b09c43cc
 Section: Tweaks
-Description: Camera Shutter Sound Disabler
- Camera Shutter Sound Disabler
- Support iOS 12 - 14
- Change log:
- - v0.1.0: Use bash, add disable camera_shutter_burst
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Camera Shutter Sound Disabler
+Description: Enable Battery Health section in Settings on iPad/iPod.
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.batteryhealthenabler
+Name: BatteryHealthEnabler(iPad/iPod)
+Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.batteryhealthenabler/depiction.json
 
-Package: com.haoict.dictationkeyhook
-Version: 1.0.0
+Package: com.brend0n.ccnoisecontrol
+Version: 0.0.4-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 348
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
-Filename: ./debs/com.haoict.dictationkeyhook_1.0.0_iphoneos-arm.deb
-Size: 52872
-MD5sum: 5db6e59062c6fa450376cb3eeedd05cb
-SHA1: 3a76093444fd7b00f37ffc489a7501f21e788823
-SHA256: 3573a56030428ffa7b997cda252b98f9d5e1231f2364b8280f11eff59d0d81bd
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 192
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.brend0n.ccnoisecontrol_0.0.4-5+debug_iphoneos-arm.deb
+Size: 13332
+MD5sum: 9813475130e5d72d0fcdef6592d755c5
+SHA1: fc12fd6c7b85732c0ce1048ed1896b419049d674
+SHA256: 0b71e1f5e32d712284d4cf1a46762f4f75cd7b1c071a36384a11a7e8f70bb22c
+Section: Control Center (Modules)
+Description: A Control Center Module to switch NoiseCancellation/Transparency. (Airpods Pro/Max)
+ A Control Center Module to switch NoiseCancellation/Transparency. (Airpods Pro/Max)
+ 0.0.4: Fix glyph color not updated when no device connected. Properly update status when not caused by Module itself.
+ 0.0.3: Add NC/Off Module. Add transition animation. Add Settings Icon.
+ 0.0.2: Fix icon on iOS 13
+Author: Brend0n <brendonjkding@126.com>
+Name: CCNoiseControl
+
+Package: com.brend0n.milkyway2-ios14fix
+Version: 0.0.2.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 148
+Depends: mobilesubstrate
+Filename: ./debs/com.brend0n.milkyway2-ios14fix_0.0.2.1-5+debug_iphoneos-arm.deb
+Size: 14312
+MD5sum: bca66f9975bbedbea69377463ba27fb6
+SHA1: b79353a2a13d695809940b63e3922d9d84a81273
+SHA256: 05c828d5aa66915d07ee348ace5b2ccdd466df39f2b450c7f8891c77e80cce7a
 Section: Tweaks
-Description: Show Emoji key in keyboard for iphone 5, 6, 7, 8
- Show Emoji key in keyboard for iphone 5, 6, 7, 8
- Support iOS 12 - 13
- Preview: https://haoict.github.io/cydia/images/emojikeyppbanner.jpg
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: EmojiKey++
+Description: Make MilkyWay2 great again!
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.milkyway2-ios14fix
+Name: MilkyWay2-iOS14Fix
+Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.milkyway2-ios14fix/depiction.json
 
-Package: com.haoict.facebooknoads
-Version: 1.4.1
+Package: com.brend0n.nokeyboardsettings
+Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 584
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
-Filename: ./debs/com.haoict.facebooknoads_1.4.1_iphoneos-arm.deb
-Size: 254880
-MD5sum: 6692ed5e700ff7a69b550e66ace1300c
-SHA1: b0cc88c1f168cc4560e8e20e75b57a33348cfbbb
-SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.brend0n.nokeyboardsettings_0.0.1-5+debug_iphoneos-arm.deb
+Size: 5276
+MD5sum: 040330a779f5054ea990fd003e4fce51
+SHA1: c67578f58b46f1a50b6b641eb1f34a0e73ecdee0
+SHA256: 781d8d7ab47c0adb5ed3b939c4f0df95fab3338e7b489082f9cc5c0fde53ba45
 Section: Tweaks
-Description: Free & Open Source Tweak for Facebook
- Free & Open Source Tweak for Facebook
- Change log: https://github.com/haoict/facebook-no-ads/releases
- .
- Features:
- - Remove Ads
- - Can Download Video (long press to download)
- - Can Download Story
- - Can Only Me Profile Picture
- - Disable Story Seen (See friends's story without letting them know)
- - Hide Composer on News Feed
- - Hide Stories on News Feed
- - Support iOS 12-14
- - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 307.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Facebook No Ads
+Description: Remove Keyboard Settings and Hand Bias Switch.
+Author: Brend0n <brendonjkding@126.com>
+Name: NoKeyboardSettings
 
-Package: com.haoict.gmailnoads
-Version: 1.0.0
+Package: com.brend0n.nopassafterrespringsafe
+Version: 0.0.2-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 584
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 2.0.0), firmware (>= 10)
-Filename: ./debs/com.haoict.gmailnoads_1.0.0_iphoneos-arm.deb
-Size: 139210
-MD5sum: affe82bcc5a17fa5ac9f3f6df4fce3f5
-SHA1: 3f4b82442068ac78efbacdbd6b363ed93e400aa0
-SHA256: c9092ceed20a5a24bbc8ac98b87daaa587900e6ba16ddd3e60aab2167cce5248
-Section: Tweaks
-Description: Free & Open Source Tweak for Gmail
- Free & Open Source Tweak for Gmail
- Change log: https://github.com/haoict/gmail-no-ads/releases
- .
- Features:
- - Remove Ads (in inbox list)
- - Lightweight
- - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest Gmail version (If it doesn't work, you should update the app to latest version)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Gmail No Ads
-
-Package: com.haoict.gmailnoads
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 452
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.gmailnoads_1.1.0_iphoneos-arm.deb
-Size: 137196
-MD5sum: 9248686163bbc141ae3340dbb6a39f3d
-SHA1: 6f228aa3df3f43a424559866edd1c2dcd225bb89
-SHA256: f45c2bd4d2556fa96ec4ed70d5c32c5d5363656c3b0bdcf3782a8da7ef153f6a
-Section: Tweaks
-Description: Free & Open Source Tweak for Gmail
- Free & Open Source Tweak for Gmail
- Change log: https://github.com/haoict/gmail-no-ads/releases
- .
- Features:
- - Remove Ads (in inbox list)
- - Lightweight
- - Support iOS 12 - 14 & latest Gmail version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Gmail No Ads
-
-Package: com.haoict.iconcert
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 376
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
-Filename: ./debs/com.haoict.iconcert_1.0.1_iphoneos-arm.deb
-Size: 18396
-MD5sum: d116c22385b41aa5b52af2457ad57f5d
-SHA1: 70fa41efae897bf851ba622415931d753008650d
-SHA256: bc5d51dbe735dcc61cbeb7eb3f938844755431db8dedb4ee4f3c97be00cfc1f0
-Section: Tweaks
-Description: Show remaining certificate time on app icon
- Show remaining certificate time on app icon
- Change log:
- - v1.0.1: Fix crash due to conflict with SnowBoard
- .
- Features:
- - Show remaining certificate time on app icon
- - Custom styles (opacity, animation, time format)
- - Support iOS 13 - 14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: IconCert 14
-
-Package: com.haoict.iconcert
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 380
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
-Filename: ./debs/com.haoict.iconcert_1.1.0_iphoneos-arm.deb
-Size: 19120
-MD5sum: d01415801d8e03cd9adae6593999b91c
-SHA1: 9f07bfc8187e54a248ef9f7c6cb82e274907446b
-SHA256: b0488558d2f708f32deb977c10f6883068a134ff7e7a5bd787c892a710ad0c5f
-Section: Tweaks
-Description: Show remaining certificate time on app icon
- Show remaining certificate time on app icon
- Change log: https://github.com/haoict/iconcert/releases
- .
- Features:
- - Show remaining certificate time on app icon
- - Custom styles (opacity, animation, time format)
- - Support iOS 13 - 14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: IconCert 14
-
-Package: com.haoict.instanoads
-Version: 2.10.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 724
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.10.0_iphoneos-arm.deb
-Size: 352908
-MD5sum: 9590448f0a747c4da625f5accd4e73b0
-SHA1: a627d22e43768c9e1e1e86161ba8cadcd22c3292
-SHA256: 2e7dc382259776230e5de7f7669853d511a8474e8d6fd8eeff907bf47bd7b1f0
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds, Stories & Reels)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 178.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.11.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 728
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.11.0_iphoneos-arm.deb
-Size: 353180
-MD5sum: b9ecbd6ed2ec8d1eae7e067834b3491e
-SHA1: 174d07963a0ba62c5580fbeb181094f323004a08
-SHA256: d723ca1165c748ef5ae99fb73744d24c94aa33f96c57cf6d464f7fa04fabe5ad
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds, Stories & Reels)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 216.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.12.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 728
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.12.0_iphoneos-arm.deb
-Size: 353438
-MD5sum: 87ac27a0ecacdd41e30f99dc3c81f94e
-SHA1: 8972fdbd09142d6989d73ac03c265c59e221f651
-SHA256: a7881aebe62ffbe9d0a7f0e5993cdc9106daf1065dc6fdb9039a3f9a3c8806dd
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds, Stories & Reels)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 216.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.13.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 728
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.13.0_iphoneos-arm.deb
-Size: 354442
-MD5sum: bc93873dd3cca6c4946faa1a9027cd1b
-SHA1: d26c2414dc2a11df3e1848ef9be29b26f6ae077b
-SHA256: 489147331661ec31a2271037baf5bcfec7da12f5a12a9c976c60f6323379075d
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds, Stories & Reels)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 216.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.14.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 728
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.14.0_iphoneos-arm.deb
-Size: 354164
-MD5sum: 52f9e1d3467a81e65a3540ad96a74052
-SHA1: a11f0039401c47465bb18d940488e8cf9d34b117
-SHA256: b4e8d38e3a2f09299589a27592238ba394aefdda3dfb0137cd58292ce13c128e
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds, Stories & Reels)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 242.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.9.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 724
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.9.1_iphoneos-arm.deb
-Size: 352106
-MD5sum: 0a697b54c95bbec0226f7e0b8ef2eb70
-SHA1: 82009da14b00ab6c9215f34e793e32745599aabf
-SHA256: abe10b830565d468784e6e386f2541c8b9d37104e0c6b067bfc6d729a4233a14
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Change log: https://github.com/haoict/instagram-no-ads/releases
- .
- Features:
- - Remove Ads (New Feeds and Stories)
- - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
- - Can Save HD Profile Picture (Press and hold to show download option)
- - Show like count
- - Determine if user is following you
- - Disable DM seen and Story seen receipt
- - Unlimited Replay Direct Messages
- - Like confirmation
- - Add App lock (use faceid/touchid to unlock)
- - Support iOS 12 - 14 & latest Instagram version (>= 178.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.killallapps
-Version: 3.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 424
-Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.5.0), firmware (>= 12)
-Filename: ./debs/com.haoict.killallapps_3.1.0_iphoneos-arm.deb
-Size: 43006
-MD5sum: a5ab3f51787a4d20befd3f51f9563eea
-SHA1: 883f647be07e8da335ab1a5ca05499410c3f2e14
-SHA256: 90af0e6eee5a5cc4ec6666e8f2a4353c57dc0d5ba8bd98e50d91290340da1fde
-Section: Tweaks
-Description: Swipe down in app switcher to kill all background apps
- Swipe down in app switcher to kill all background apps
- .
- Features:
- - Custom UI Effect/Haptic Feedback when killed all apps
- - Option to add Clear Button and its style
- - Option to kill all apps but keep current app alive
- - Option to kill all apps and restart current app
- - Option to not kill Now Playing or Navigation Apps or Swiped Down App and Except Apps
- - Custom swipe down offset
- - Support iOS 12 - 13
- .
- I collect uuid for better support and statistic purpose
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Kill All Apps
-
-Package: com.haoict.killallapps
-Version: 3.2.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 424
-Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
-Filename: ./debs/com.haoict.killallapps_3.2.0_iphoneos-arm.deb
-Size: 42198
-MD5sum: e3b1453090135e886e7f2401c20ab47b
-SHA1: 7407b225deaef70d1e13df3a015b7c6c0a346466
-SHA256: 4849599732e6be12a307a58086ff10514f07b48ce0791e01e8a20aa22fc3f9fb
-Section: Tweaks
-Description: Swipe down in app switcher to kill all background apps
- Swipe down in app switcher to kill all background apps
- .
- Features:
- - Custom UI Effect/Haptic Feedback when killed all apps
- - Option to add Clear Button and its style
- - Option to kill all apps but keep current app alive
- - Option to kill all apps and restart current app
- - Option to not kill Now Playing or Navigation Apps or Swiped Down App and Except Apps
- - Custom swipe down offset
- - iPad switcher style
- - Support iOS 12 - 14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Kill All Apps
-
-Package: com.haoict.libhdev
-Version: 4.8.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen <hao.ict56@gmail.com>
-Installed-Size: 316
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
-Filename: ./debs/com.haoict.libhdev_4.8.1_iphoneos-arm.deb
-Size: 46954
-MD5sum: 9d08e737de8d1de3bc68e27936d1a950
-SHA1: 55b91d41d587fb3ae703a6be6ee0b55c2b6f513d
-SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
-Section: System
-Description: This is a developer library for better preferences and useful utilities.
- This is a developer library for better preferences and useful utilities.
- .
- Change log:
- - v4.8.1: Minor improvement
- - v4.8.0: Improve performance & reduce package size
- - v4.7.0: Improve media download & fix preferences cell color
- .
- Github: https://github.com/haoict/libhdev-public
- .
- © 2021 haoict
-Tag: role::developer
-Author: Hao Nguyen <hao.ict56@gmail.com>
-Name: libhdev
-
-Package: com.haoict.lockscreenwithoutbutton
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
+Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./debs/com.haoict.lockscreenwithoutbutton_0.0.1_iphoneos-arm.deb
-Size: 2984
-MD5sum: ff4c0de2d58138d46d885391dacb72e0
-SHA1: c5c17c16c5a7647e8102a50dec6f3cb1960a2281
-SHA256: cce428809ae45e2373211146a0d2ea5e639e33ec2d3781182b487bb46e66901a
+Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.2-5+debug_iphoneos-arm.deb
+Size: 5782
+MD5sum: a1c3d37ff56f8a8202a09a436ca8c26e
+SHA1: c3dc84b67e232ff7478ca20c5b69197efc6a9456
+SHA256: 4f3b31141cabb9216d2f2aebdf1cf5a54d7a7ed2bc51c70e6126f8357f1f285f
 Section: Tweaks
-Description: Lock Screen without button, just double tap from Home
-Author: Hao Nguyen
-Name: Lock Screen Without Button
+Description: Disables passcode after a respring.
+Author: Brend0n <brendonjkding@126.com>
+Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
+Name: NoPassAfterRespring (Safe)
+Sileodepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
 
-Package: com.haoict.messengernoads
-Version: 3.10.0
+Package: com.captinc.mobilegoosemodule
+Version: 1.0.2-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 972
-Depends: mobilesubstrate, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.messengernoads_3.10.0_iphoneos-arm.deb
-Size: 538742
-MD5sum: be67c36dd972bee2f1f4368ac325f88c
-SHA1: bb28976111604e346e669aaf4325630fca6d46b8
-SHA256: 5498ac1f9a099e8cb919a2801f78c1e895b561b24b90432dfc00adb921a6728e
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Installed-Size: 196
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
+Filename: ./debs/com.captinc.mobilegoosemodule_1.0.2-5+debug_iphoneos-arm.deb
+Size: 15400
+MD5sum: b6448d0fbace42cee9a003e684940aaa
+SHA1: b6d284c3ec54bf863531a7711384405aedc3b0d3
+SHA256: cf7ce304dd29933696fbfa914b73ea2079a1be1aa145a2455b70a6c6911af4dd
 Section: Tweaks
-Description: The best tweak for Messenger app.
- The best tweak for Messenger app.
- Change log: https://github.com/haoict/messenger-no-ads/releases
- .
- Features:
- - Hide Ads on Messenger app
- - Disable Read Receipt
- - Disable Typing Indicator
- - Disable Story Seen Receipt
- - Can Save Friend's Story
- - Hide Search Bar, Stories row, People tab
- - Hide Suggested Contact in Search
- - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
- - Support iOS 12 - iOS 14
- - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Messenger No Ads
+Description: Control Center module to toggle MobileGoose
+Author: Capt Inc <teamcaptinc@gmail.com>
+Depiction: https://captinc.github.io/depictions/mobilegoosemodule/mobilegoosemodule.html
+Name: MobileGooseModule
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.0.6~fix
+Package: com.captinc.wallpaperchanger
+Version: 1.0.1-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 300
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.0.6~fix_iphoneos-arm.deb
-Size: 12692
-MD5sum: 9420409e004b7f7171f0f4e7054fa6fa
-SHA1: a59e9053dd3137eb499585c1b30f8162a3297de8
-SHA256: a79406f97bc19399e7e88152f6a9cedee2874c27186b1eaaa464fc9b32a466b9
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Installed-Size: 136
+Depends: firmware (>=11.0)
+Filename: ./debs/com.captinc.wallpaperchanger_1.0.1-5+debug_iphoneos-arm.deb
+Size: 7972
+MD5sum: 4d7339edab37e6d51c17fc3d9d423e8f
+SHA1: 156b2747b9757620b74e964c4a0d9e46b7e95fd8
+SHA256: 19f05e48d62cd37d5fbe6576f9f418784730a0928c7effc5f5c32b5715243a0b
 Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Description: Change wallpaper from command line
+Author: Capt Inc <teamcaptinc@gmail.com>
+Depiction: https://captinc.github.io/depictions/wallpaperchanger.html
+Name: WallpaperChanger
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.2.0
+Package: com.chinapyg.lookinloader
+Version: 1.0.5-4+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
+Maintainer: creantan/P.Y.G
+Installed-Size: 292
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.chinapyg.lookinloader_1.0.5-4+debug_iphoneos-arm.deb
+Size: 27826
+MD5sum: e9847cff22e2a0131b8c989500cd5d9c
+SHA1: d381316da261d99d656093b844b323a7306aac21
+SHA256: 93c412c228368cd7e7cb63af3b299fb7f9dd72c611e9968e8b0f8619cb6bb9e7
+Section: Tweaks
+Homepage: https://www.chinapyg.com
+Description: An awesome Lookin Loader for iOS8~iOS13!(https://www.chinapyg.com)
+Author: creantan/P.Y.G
+Icon: file:///Library/PreferenceLoader/Preferences/lookin@2x.png
+Name: LookinLoader
+
+Package: com.chr1s.tapflash
+Version: 1.0.2-3+debug
+Architecture: iphoneos-arm
+Maintainer: Chr1s
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.chr1s.tapflash_1.0.2-3+debug_iphoneos-arm.deb
+Size: 5374
+MD5sum: 2b1b23c4ee150f615d4b5839ea68b4dc
+SHA1: 27c396cdd3e4131e34ebda17cbc3b4a033461e00
+SHA256: 6bc3643412aa6c0097174b7edccde603fca713a11911e4146905fe55bc7e4672
+Section: Tweaks
+Description: Press volume buttons simultaneously to enable flashlight!
+Author: Chr1s
+Name: TapFlash
+
+Package: com.ckosmic.brightcam
+Version: 0.1.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Christian Kosman <support@tripleaxis.net>
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.ckosmic.brightcam_0.1.1-5+debug_iphoneos-arm.deb
+Size: 7598
+MD5sum: b4e5b5b75105ee08129a0d5f02557d9d
+SHA1: 3005ca81eb407a4f02626970c10d0ea3edbf1bdb
+SHA256: 85e64e4c2d9ba52f0c10510d10106cfa0db53330d20ad05d70f12ce53f67602e
+Section: Tweaks
+Description: Turns screen brightness to 100% when the camera app is opened.
+Author: Christian Kosman <support@tripleaxis.net>
+Depiction: https://ckosmic.github.io/repo/depictions/?p=com.ckosmic.brightcam
+Name: BrightCam
+
+Package: com.crazymind90.millionpref
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: @CrazyMind90
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: ./debs/com.crazymind90.millionpref_0.0.1-4+debug_iphoneos-arm.deb
+Size: 20260
+MD5sum: af7a5a5d73d0a923de65088f12514830
+SHA1: 35ae23be1bafec8336c4e8b35954feeb07621de1
+SHA256: 261ff879a5c45f27d7697e826e4bb5c659a1d09f4be1fedc8cec5a2099aae89e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: @CrazyMind90
+Name: MillionPref
+
+Package: com.daveapps.labelchanger
+Version: 1.7-7+debug
+Architecture: iphoneos-arm
+Maintainer: Dave van Wijk
+Installed-Size: 316
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.daveapps.labelchanger_1.7-7+debug_iphoneos-arm.deb
+Size: 18964
+MD5sum: 6a6fe8da4e1a0c9ed9ae83a868781ab1
+SHA1: ab95693ddfd8ce0ca1d5b2feaba80ec316544cc1
+SHA256: 55283c6ccfd6b553813b30c2df0d7c18b66672e930c525c65549d9f982b1fbcd
+Section: Tweaks
+Description: Customise ur icon labels in every single way!
+Author: Dave van Wijk
+Name: LabelChanger
+
+Package: com.daveapps.lstextchanger
+Version: 1.1.1-7
+Architecture: iphoneos-arm
+Maintainer: Dave van Wijk
+Installed-Size: 356
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.daveapps.lstextchanger_1.1.1-7_iphoneos-arm.deb
+Size: 13882
+MD5sum: 9809b0a97c70fc64a011d695a59e4040
+SHA1: 6a566b33a44b9aa1b1393165bdb4ba98530f07d6
+SHA256: ce93e6852d4d15960b83907dcb9e53cc487baae311a1629b5cb466003e0d453e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Dave van Wijk
+Name: LSTextChanger
+
+Package: com.dgh0st.no3dtouchwidgets
+Version: 0.0.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.dgh0st.no3dtouchwidgets_0.0.2-4+debug_iphoneos-arm.deb
+Size: 4660
+MD5sum: 8b28512249bc8396941986b458e45f5d
+SHA1: 3c4cd4ce657dce894ade36144bea47dca73b9910
+SHA256: 8a0d634b81ca8909f24000eb16caee38a533318fa8889bceebb100a5554b6c5f
+Section: Tweaks
+Description: Remove the widgets from 3D touch shortcuts on homescreen.
+Author: DGh0st <deeppwnage@yahoo.com>
+Name: No3DTouchWidgets
+
+Package: com.donato.cach3d
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Donato Fiore
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.donato.cach3d_1.0-4+debug_iphoneos-arm.deb
+Size: 7270
+MD5sum: 3f34fa01c600dd3c8bd1990a1556f8fa
+SHA1: 980f7343d21e525dc665795bafb107cc343554fe
+SHA256: d6ce61544a476dde7d51d79a9c8fae1be36348f5d92f0cf2eeafe2aa50a62497
+Section: Tweaks
+Description: Clear an application's cache with a 3D touch shortcut
+Author: Donato Fiore
+Name: Cach3D
+
+Package: com.dpkg.ipadswitcher
+Version: 1.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: dpkg_
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dpkg.ipadswitcher_1.2-4+debug_iphoneos-arm.deb
+Size: 19156
+MD5sum: 0278d17f454ba539d07331db28a0d2a1
+SHA1: 36e23ded97bee5d85fe1984f35702509ca080237
+SHA256: 72b80f852be9a1de3dd827855a4b5780a88139a24f209bfe0752dfc6117e7028
+Section: Tweaks
+Description: Customizable iPad-like Grid Switcher.
+Author: dpkg_
+Name: iPadSwitcher
+
+Package: com.easy-z.bark
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Easy-Z
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.easy-z.bark_1.0.0-4+debug_iphoneos-arm.deb
+Size: 3730
+MD5sum: 93d705f442e40a6b0156bb6704e436ce
+SHA1: 1c1c504b812085a0c1ec8b727da54415d853368d
+SHA256: 1a3aad7a69f9b14a5cee5bf76c5be54c28b133d02565da05d8f9f5dfbca2d466
+Section: Tweaks
+Description: Make your keyboard more OLED friendly.
+Author: Easy-Z
+Name: BARK
+
+Package: com.eliofegh.date-bar
+Version: 1.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: ElioFegh
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.eliofegh.date-bar_1.2-4+debug_iphoneos-arm.deb
+Size: 29006
+MD5sum: 392139b1eba3b6a955624ddf19a03843
+SHA1: 9163def6498d9293dd54b7cf72c0914803d450a6
+SHA256: b06b80a051ffca626be9c3ac03424546031a574928c0074438f3fb24fcd01b35
+Section: Tweaks
+Description: more date!
+Author: ElioFegh
+Name: date bar
+
+Package: com.eliofegh.full-likes
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Elio Feghali
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.eliofegh.full-likes_1.0.0-4+debug_iphoneos-arm.deb
+Size: 4612
+MD5sum: ca842a3ea16c82277c7f024172c2128d
+SHA1: a12ef2c66b46189b04f57ee71462f7fd1fe382f2
+SHA256: a098e58b8b76e8f081d3eb49566fd05d1a704bee1982c813c95cef9e7059ef1f
+Section: Tweaks
+Description: instagram reels with whole likes number
+Author: Elio Feghali
+Name: full likes
+
+Package: com.fiore.brokepods
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Donato Fiore
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.fiore.brokepods_1.0-4+debug_iphoneos-arm.deb
+Size: 68336
+MD5sum: 34564f7259abae2c42601d8f5c25e8aa
+SHA1: eb2e32f4750685a766d37e559d70780ad1ee9772
+SHA256: b69858334aab0d6c98490c3fa725ba81455764d391c748ef81a60176063529fe
+Section: Tweaks
+Description: Animation when plugging in Apples EarPods into a iDevice. Concept by @flower#1116
+Author: Donato Fiore
+Name: brokepods
+
+Package: com.fiore.calculatorhistory
+Version: 1.1.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: Donato Fiore
+Installed-Size: 212
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.fiore.calculatorhistory_1.1.2-4+debug_iphoneos-arm.deb
+Size: 20968
+MD5sum: 4f8198cf2cbccb2499eb1f5b835ba091
+SHA1: 8bec489afebed6f26f4ed79a89f6a9bca2c93690
+SHA256: 58b6ed01e3e4cee1a3aac5b6a381567a171716b8b478ce5652a2f3feafbbe2e5
+Section: Tweaks
+Description: Calculator gains history!
+Author: Donato Fiore
+Name: CalculatorHistory
+
+Package: com.fiore.gameseagull
+Version: 1.6-4+debug
+Architecture: iphoneos-arm
+Maintainer: Donato Fiore
+Installed-Size: 440
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Replaces: com.donato.gameseagull
+Filename: ./debs/com.fiore.gameseagull_1.6-4+debug_iphoneos-arm.deb
+Size: 34976
+MD5sum: 5862c7d8ee5c962ec1e7e81ec2cc388c
+SHA1: 08012abd2795760f81c499dfa939a571faa062be
+SHA256: b7ecb527c4aa1fd6716fc176dc3556f653cd274e4a02469581e2e772c4c75d7f
+Section: Tweaks
+Description: Minor game pigeon "assistance"
+Author: Donato Fiore
+Name: GameSeagull
+
+Package: com.fiore.suffisso
+Version: 1.0.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Donato Fiore
+Installed-Size: 284
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.11)
+Conflicts: com.pixelomer.iusearchbtw, com.fiore.torino
+Filename: ./debs/com.fiore.suffisso_1.0.0-5+debug_iphoneos-arm.deb
+Size: 9482
+MD5sum: 3236611aaae0936b75c727fc88e8d1a2
+SHA1: 6f473cdfb2824281a5496206c75205c57225959e
+SHA256: 27fa82e84007de073b539b2619c3f81c5658788d342d642f8cb5d8bf00c6a491
+Section: Tweaks
+Description: man.
+Author: Donato Fiore
+Name: Suffisso
+
+Package: com.galacticdev.14pip
+Version: 1.0-9+debug
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.galacticdev.14pip_1.0-9+debug_iphoneos-arm.deb
+Size: 52560
+MD5sum: 991894043ed5281d853bf45aa2980711
+SHA1: c33274c574407cad541f7a305a7df83acd9bf597
+SHA256: 50ade3b9850595b6dcc01c3f1c7e0602a9c78543eae40ffb0eb1a966d07e924f
+Section: Tweaks
+Description: iOS 14 style PiP on iOS 13
+Author: Galactic Dev
+Depiction: https://galactic-dev.github.io/depictions/?p=com.galacticdev.14PiP
+Name: 14PiP
+
+Package: com.galacticdev.bigytminiplayer
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.galacticdev.bigytminiplayer_1.0-1_iphoneos-arm.deb
+Size: 4274
+MD5sum: 69f41e21f4d994239d17cb880dd542e1
+SHA1: 7e16e1250d03fedf38bc91ddc96d5a16431b4734
+SHA256: 9fa688a0dc0f42ff2f79b8464534eec137a91cf9144f6e973f2b93bfbf047161
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Galactic Dev
+Name: BigYTMiniPlayer
+
+Package: com.galacticdev.notfinical
+Version: 1.0.3-4+debug
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 356
+Depends: mobilesubstrate
+Filename: ./debs/com.galacticdev.notfinical_1.0.3-4+debug_iphoneos-arm.deb
+Size: 16368
+MD5sum: 33903de43b775ea6d1821a26b297c243
+SHA1: b344eb26cb1ddc5c763d187bea47061b06c6ee2c
+SHA256: 5b77e2043d098ef6cdd5b561269f36d4f2dcd7db27035ee78fe585df45074f35
+Section: Tweaks
+Description: Dismiss the lockscreen music player with a swipe!
+Author: Galactic Dev
+Name: NotFinical
+
+Package: com.galacticdev.ytnoshortsbutton
+Version: 1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.galacticdev.ytnoshortsbutton_1.0-5+debug_iphoneos-arm.deb
+Size: 3880
+MD5sum: 2d5eecd12e4c17aa0cfb1f209dbc8423
+SHA1: dd31740d6e13b4e666db43d8285acdbc8932607e
+SHA256: 04f28542a06bce368e34756bb93bf4b970c38a1c19b5d1f8134b0029d92323df
+Section: Tweaks
+Description: Remove the shorts button from the YouTube app.
+Author: Galactic Dev
+Name: YTNoShortsButton
+
+Package: com.gilesgc.cccalc
+Version: 1.1.4-5+debug
+Architecture: iphoneos-arm
+Maintainer: gilesgc
+Installed-Size: 308
+Depends: mobilesubstrate
+Filename: ./debs/com.gilesgc.cccalc_1.1.4-5+debug_iphoneos-arm.deb
+Size: 48724
+MD5sum: e515a3924dd1fbc5f2ce0e6ace9284c3
+SHA1: f11e5d44d6d13fa71b0cbb45cfc3a879b4d61fbb
+SHA256: 15516d6da3584c467d80ac68c68d7b712e0cd24016414c913e5ac6cf1687e5c7
+Section: Tweaks
+Description: Turn your calculator module into a real calculator
+Author: gilesgc
+Depiction: https://gilesgc.github.io/repo/depictions/?p=com.gilesgc.cccalc
+Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
+Name: CCCalc
+
+Package: com.gilesgc.freemote
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: gilesgc
+Installed-Size: 296
+Depends: mobilesubstrate
+Filename: ./debs/com.gilesgc.freemote_1.0.0-4+debug_iphoneos-arm.deb
+Size: 29590
+MD5sum: f93a6f10f3d6c28e7d5744c7dcce2c76
+SHA1: c2765cfe9ab5b7a0af4aeb8756803c7faa65f662
+SHA256: 9a50b840de36f1bc26148a61a2516a84bfa2da6811295915eef2cfdf597e9cbe
+Section: Tweaks
+Description: Bring BTTV emotes to the iOS Twitch app. PogU.
+Author: gilesgc
+Depiction: https://gilesgc.github.io/repo/depictions/?p=com.gilesgc.freemote
+Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.freemote/freemote-icon.png
+Name: Freemote
+
+Package: com.gilshahar7.cellulardatachangedaction
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: gilshahar7
+Installed-Size: 140
+Depends: mobilesubstrate, libactivator
+Filename: ./debs/com.gilshahar7.cellulardatachangedaction_1.0-4+debug_iphoneos-arm.deb
+Size: 9022
+MD5sum: 73918e65b5bdfb88ffc295f2e5febcdb
+SHA1: e17eaf51dd38dc19cd5faf3ada42f76a81e88a8c
+SHA256: c58961e1ad2cb25b520404f5f74eab52d49d5788e349ff25e0ff23299f8b2d37
+Section: Tweaks
+Description: An activator action tweak for cellular data state changes
+Author: gilshahar7
+Name: cellulardatachangedaction
+
+Package: com.gilshahar7.taptoopen
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: gilshahar7
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debs/com.gilshahar7.taptoopen_1.0-4+debug_iphoneos-arm.deb
+Size: 6000
+MD5sum: ebecd4415d00f79ec2801f611f0f8042
+SHA1: 55907e3506068468cfd66f863842421c7266530e
+SHA256: 560c696f0183537238935f00ce30d1f5027c075dba85f99aa9d378867e9f46c9
+Section: Tweaks
+Description: Tap on lockscreen notifications to open them.
+Author: gilshahar7
+Name: TapToOpen
+
+Package: com.ginsu.ytmusicultimate
+Version: 0.0.1-6+debug
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_0.0.1-6+debug_iphoneos-arm.deb
+Size: 47144
+MD5sum: 642a05c3092131fb10de39f12706d4fc
+SHA1: 066d32810c836d5ca52cd326f9a9e20df8ea554a
+SHA256: 11f7858ffad65d821cc28740004ef9bb4985c00b9937a060bf31d6fa7fcc63af
+Section: Tweaks
+Description: YouTube Music Premium
+Author: Ginsu
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+Name: YTMusicUltimate
+
+Package: com.greg0109.banavoider
+Version: 1.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 424
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: ./debs/com.greg0109.banavoider_1.2-4+debug_iphoneos-arm.deb
+Size: 21928
+MD5sum: c8a578e707e40f167f899253df86fe84
+SHA1: 9af0dca22501c7977e573704baee0c5374f14205
+SHA256: 8244a2d748321eadd26204dc36376ef2d82aff8375491af13c1f695ec85df158
+Section: Tweaks
+Description: Useful tweak that reminds you to disable the jailbreak before playing games!
+Author: Greg0109
+Name: BanAvoider
+
+Package: com.greg0109.bluetoothrestarter
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.greg0109.bluetoothrestarter_1.0-4+debug_iphoneos-arm.deb
+Size: 5504
+MD5sum: 9b11bb24e44de4673609893f3e7c6159
+SHA1: c0383992ebb8b5034eb2dedb7e84a053ae56fd57
+SHA256: 57562998a65de1785ca85f2f0fb75c8b7e42bc0df49bf845b2c9e43ad0fb3222
+Section: Tweaks
+Description: Toggles airplane mode to restart bluetooth services after a respring!
+Author: Greg0109
+Name: BluetoothRestarter
+
+Package: com.greg0109.flashnotify
+Version: 1.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.greg0109.flashnotify_1.0.1-4+debug_iphoneos-arm.deb
+Size: 154116
+MD5sum: 812877774a0649f026980dd094f86bac
+SHA1: d0e5f91a4490cf69173c57f8fd0a65b2848cb3d5
+SHA256: d4cd46b17efcd4f7a645511321121191611b070cd416272fb9df9baabb156681
+Section: Tweaks
+Description: Never forget your flashlight is on again!
+Author: Greg0109
+Name: FlashNotify
+
+Package: com.greg0109.instasearch
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109 <greg.rabago@gmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.greg0109.instasearch_1.0-4+debug_iphoneos-arm.deb
+Size: 6796
+MD5sum: 1f6e36df3f011c06801696d6773c2d1a
+SHA1: 2c93c6d1bb5f56f1a9d6640c7e46aeffc5f36322
+SHA256: 3cfb2951bf0a7828d4f5a00b1bef203d0f8fbf30cd5314194c64e3d4390e335d
+Section: Tweaks
+Description: Bring back search 3D Touch option to instagram!
+Author: Greg0109 <greg.rabago@gmail.com>
+Name: InstaSearch
+
+Package: com.greg0109.killalert
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.greg0109.killalert_1.0-4+debug_iphoneos-arm.deb
+Size: 8276
+MD5sum: a0762f32706fd46376d9481cf8d9e7eb
+SHA1: 4f018bd0a30935a292b82542aa7cf75f8a8adca5
+SHA256: abca0ac22f43ec1956f96e97a42fa830e68d922e331a5ed76e700ad1371120ab
+Section: Tweaks
+Description: Get a notification before killing an app!
+Author: Greg0109
+Name: KillAlert
+
+Package: com.greg0109.messageunread
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.greg0109.messageunread_0.0.1_iphoneos-arm.deb
+Size: 7930
+MD5sum: 66135f9132163d805164a8790a0e793a
+SHA1: 2354113de81375d8d9f9d62a6e1b2240a4514629
+SHA256: bf6ce971c03b01fd7097f38ea4c6e2e400744edc2b1ea2a414c24e2f56cfc489
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Greg0109
+Name: MessageUnread
+
+Package: com.greg0109.quiet
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.greg0109.quiet_1.0-3+debug_iphoneos-arm.deb
+Size: 9134
+MD5sum: 74c804b8579d3fe96d225b204a4cd2d1
+SHA1: 0a37db478a6d7e7402efc4b7dcf48622ef2a14ce
+SHA256: 39f8247db6ab8c43157451f63e1ab3762f517e0c59de546bd6ad0dbfd30fecb6
+Section: Tweaks
+Description: Silence notifications from 3D touch menu!
+Author: Greg0109
+Name: Quiet
+
+Package: com.greg0109.rekt
+Version: 1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Greg0109 <greg.rabago@gmail.com>
+Installed-Size: 100
+Depends: mobilesubstrate
+Filename: ./debs/com.greg0109.rekt_1.0-5+debug_iphoneos-arm.deb
+Size: 13518
+MD5sum: 0664b7af96d6e2e963ca76c155e3cdfd
+SHA1: 37ddbe172a8ee2afa200009eb1fe50fb7cbe8d99
+SHA256: d6ca5658c30974fc4f914c3c949b5c17feafaeda34caf10af42f3d4534f80450
+Section: Tweaks
+Description: Rekt them with the press of a button!
+Author: Greg0109 <greg.rabago@gmail.com>
+Name: rEkT
+
+Package: com.halliehax.battibar
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: HallieHax
+Installed-Size: 428
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.1), ws.hbang.common (>=1.11)
+Filename: ./debs/com.halliehax.battibar_1.1_iphoneos-arm.deb
+Size: 39478
+MD5sum: dc2472b78e1a81632849d936a64e6f79
+SHA1: f78351cf00e03cc9d19638b8f17899b42ced59df
+SHA256: ed3dd47a48d77debbd32d4e628855181b5f04032c161bfb41262bd5de026e6d6
+Section: Tweaks
+Description: Colorize your status bar with your battery level!
+Author: HallieHax
+Name: BattiBar
+
+Package: com.hearse.3developer
+Version: 1.1-25+debug
+Architecture: iphoneos-arm
+Maintainer: Hearse/Fiore
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000), flexdecrypt, firmware (>= 13.0)
+Filename: ./debs/com.hearse.3developer_1.1-25+debug_iphoneos-arm.deb
+Size: 9944
+MD5sum: 93fac797b375f138b0f1d27d27272c5a
+SHA1: 677f4e9c1f37340f8512c6de61c638f43e1b985f
+SHA256: 57adeea8ed3f904c0742ca76ab75565b531b7c589bd64a529e2380b2fd8afae8
+Section: Tweaks
+Description: 3D touch shortcuts for various developer actions!
+Author: Hearse/Fiore
+Name: 3Developer
+
+Package: com.ichitaso.spenabler
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 0
+Depends: firmware (>= 11.0)
+Filename: ./debs/com.ichitaso.spenabler_1.0.1_iphoneos-arm.deb
+Size: 12040
+MD5sum: 7b76b4e8c2e367dec4b5951d2b998bf2
+SHA1: 8a617c6060461399de654f4adf1e1b0cd83d446a
+SHA256: 3cd3e73c0aef13cba90ea3a763f65b9a90bacb2aa0b42e87c1733db12858e5fc
+Section: System
+Homepage: https://ichitaso.com/
+Description: Enable Supervised Mode
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
+Dev: ichitaso
+Name: SupervisedEnabler
+
+Package: com.icraze.notodayview13
+Version: 1.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: iCraze
+Installed-Size: 284
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.icraze.notodayview13_1.0.1-4+debug_iphoneos-arm.deb
+Size: 11650
+MD5sum: ac314def70b8d32c7eaa75d3e211c8fd
+SHA1: be40e44b41521747f919a09c378b46c2c8998cc2
+SHA256: 76aece7558dff1ef29d820ffd8ee5de574eb55672385c66333d32bcf8f0cac19
+Section: Tweaks
+Description: Remove the today view on the homescreen/lockscreen.
+Author: iCraze
+Name: NoTodayView13
+
+Package: com.inoahdev.launchinsafemode
+Version: 1.0.5-4+debug
+Architecture: iphoneos-arm
+Maintainer: inoahdev
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.inoahdev.launchinsafemode_1.0.5-4+debug_iphoneos-arm.deb
+Size: 34538
+MD5sum: 3f7178d522892937f626ebf7be30dcc6
+SHA1: 85cd472f06d2dc6f00d0122ea48213d21546d2ab
+SHA256: e20d78b7f10b4946c25082713b99bbcc3de596e1af1a0e81725f9c89c99a001c
+Section: Tweaks
+Description: Use 3D Touch to selectively launch applications in a "safe mode"
+Author: inoahdev
+Name: LaunchInSafeMode
+
+Package: com.ivanc.accent
+Version: 1.5.0-6+debug
+Architecture: iphoneos-arm
+Maintainer: Ivan Cristina <ivancristina5@gmail.com>
+Installed-Size: 372
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), ws.hbang.alderis, applist
+Filename: ./debs/com.ivanc.accent_1.5.0-6+debug_iphoneos-arm.deb
+Size: 35538
+MD5sum: f674390acda39743df5e3d7dd091ba74
+SHA1: 8a77fa030ec2956e53cba2ce6d7afd6888be65cc
+SHA256: eef8fe364b6d95a71537f111b565732d8855bb9fd828f2929db1e97aa4f54afc
+Section: Tweaks
+Description: iOS accent colors in macOS style!
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Name: Accent
+
+Package: com.jcsnider.volumesongskipper113
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: gilshahar7
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.jcsnider.volumesongskipper113_1.0.2_iphoneos-arm.deb
+Size: 7386
+MD5sum: 5561b44e4d2c2ecc822f40b9fa3e6369
+SHA1: b0672692ddacdc8e415339a7e8c0403643c1eae8
+SHA256: a64d6269b1a91d71d01672f1ed9ad8f9b849ce8e489c2206fb1902d94956f2b3
+Section: Tweaks
+Description: Use volume keys to go to previous/next media. (Hold up = Next Song | Hold down = Previous Song, Press Both = Toggle Play/Pause)
+Author: JC Snider
+Name: VolumeSongSkipper113
+
+Package: com.jschiefner.advancedbrightnessslider
+Version: 1.1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Jonas Schiefner
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Filename: ./debs/com.jschiefner.advancedbrightnessslider_1.1.0-5+debug_iphoneos-arm.deb
+Size: 43838
+MD5sum: cb97c500ca66e538757cf9c11946ed70
+SHA1: 0941109362552392f16e577b8b5a4a17e46f4e50
+SHA256: 35d36320008b9408806aeba255f0cc0b802fd53876646d2739f6137adf48d13b
+Section: Tweaks
+Description: Tweak to dim the screen even further with the brightness slider in Control Center
+Author: Jonas Schiefner
+Name: AdvancedBrightnessSlider
+
+Package: com.karimo299.btpower
+Version: 1.0.0-6+debug
+Architecture: iphoneos-arm
+Maintainer: Karimo299
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debs/com.karimo299.btpower_1.0.0-6+debug_iphoneos-arm.deb
+Size: 5178
+MD5sum: 299d9537750dc2b66bb7d7d47daffb93
+SHA1: 63c9869dac08adfe1fd2adb1c8bc58cd7cc54296
+SHA256: cf460708f56b3b0378c1c3e186393fe37f1794a591a5081700880d1538a7f0df
+Section: Tweaks
+Description: A tweak that shows current headset's battery level in the status bar
+Author: Karimo299
+Name: BTPower
+
+Package: com.kinkenyuen.videodownloadercn
+Version: 1.3.5-3+debug
+Architecture: iphoneos-arm
+Maintainer: Ken <yuenkinken@icloud.com>
+Installed-Size: 2288
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/com.kinkenyuen.videodownloadercn_1.3.5-3+debug_iphoneos-arm.deb
+Size: 433434
+MD5sum: 176d7084aa3fb16ec9257f72ce01684c
+SHA1: 80af76574cc5bb83f82d385fbbd7d38d24718316
+SHA256: 64d04d8dee50a9be037ac96c394b83ce5aea75349e2800cc285ae0b62cd642a1
+Section: Tweaks
+Description: 允许App内短视频下载保存到本地
+Author: Ken <yuenkinken@icloud.com>
+Depiction: https://kkyuen.github.io/repo/depictions/?p=com.kinkenyuen.videodownloadercn
+Icon: file:///Library/PreferenceBundles/videodownloadercnprefs.bundle/VideoDownloaderIcon.png
+Name: VideoDownloaderCN
+
+Package: com.level3tjg.twitchadblock
+Version: 0.0.7-5+debug
+Architecture: iphoneos-arm
+Maintainer: level3tjg
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: ./debs/com.level3tjg.twitchadblock_0.0.7-5+debug_iphoneos-arm.deb
+Size: 17996
+MD5sum: 7a85b459ecb45b9288ec34036211a8a7
+SHA1: ae8cc5bb0d68266452007b9e026c3a6400c7dade
+SHA256: fbad1458fcb3a740ea27afbc34aadf58d88079a077d872d8a8335d33ee177f25
+Section: Tweaks
+Description: Block Twitch video ads
+Author: level3tjg
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.twitchadblock
+Name: TwitchAdBlock
+
+Package: com.libe.pokebar
+Version: 1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: Liberato Aguilar
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: ./debs/com.libe.pokebar_1.0-5+debug_iphoneos-arm.deb
+Size: 14484
+MD5sum: b1f8e8e491e4c35495e8d2c77f4c1a3e
+SHA1: 8ef97781baa83253a50387a35ba49882b9e7a7c3
+SHA256: 7b712040f6741368d4c0adfe2d6ae30eded4aaec6772610217e250d305f62b7d
+Section: Tweaks
+Description: Pokemon R/B/Y style notifications.
+Author: Liberato Aguilar
+Name: PokeBar
+
+Package: com.mbo42.updateproxysettings
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Mikael
+Installed-Size: 200
+Depends: firmware(>=8)
+Filename: ./debs/com.mbo42.updateproxysettings_1.0-4+debug_iphoneos-arm.deb
+Size: 9536
+MD5sum: 09b2a8e8a40e50a03974242487aeef20
+SHA1: f1df90542c74b6c5e158ebd6b89bb044f92863e2
+SHA256: 20a1f227850ceaebd77716b8fee4ff39fe0aa51a07b77450610eb5bf7b80e0ad
+Section: System
+Description: Command line tool to update proxy settings
+Tag: role::hacker
+Author: Mikael
+Name: UpdateProxySettings
+
+Package: com.mtac.settingsip
+Version: 0.0.1-7+debug
+Architecture: iphoneos-arm
+Maintainer: MTAC
 Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.2.0_iphoneos-arm.deb
-Size: 13294
-MD5sum: 0dad140db924337f860596adc2e0d51f
-SHA1: e25c1e9f6bb8a422099e6e9d7a9f0bbabffe9f3e
-SHA256: 9ea3ff2223ffa24bf0763219455f883b890103604334ad2c92e5f81d78f53e8f
+Depends: mobilesubstrate
+Filename: ./debs/com.mtac.settingsip_0.0.1-7+debug_iphoneos-arm.deb
+Size: 23036
+MD5sum: af5029a478960b7041e3f8d36f57c93b
+SHA1: fe07118b7db81f83fbc186fdd428944878128c83
+SHA256: f09680482f91e7fb8b6efff123d329dc87086fc063cfe9eaec61f9e41e0ed733
 Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Description: The easiest way to get your WiFi IP address!
+Author: MTAC
+Name: SettingsIP
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.3.0
+Package: com.nahtedetihw.listening
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.3.0_iphoneos-arm.deb
-Size: 13516
-MD5sum: 2cb6b80a38bb917808b34ab0d9cbaebf
-SHA1: 477050deb9149755b527f52ef23b125fb18ea82d
-SHA256: 3f8b779b6d339920e1ac5b24048b4bba44d07f80d70828e6a04eb8a2137a400a
+Maintainer: Ethan Whited
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.nahtedetihw.listening_1.0_iphoneos-arm.deb
+Size: 5140
+MD5sum: 809b23cb3ff0e48fa9fbf3105e0465ca
+SHA1: 121d7949bba278118c5c6290ef78e539b5363bab
+SHA256: 565c9df394af7698f6265e9f92aa4adc36d1db4a0a06c5400b03fb91a828e8bf
 Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Description: Toggle Transparency when paused and NoiseCancellation when playing!
+Author: Ethan Whited
+Name: Listening
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.4.0
+Package: com.nahtedetihw.timestamp
+Version: 1.2-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.4.0_iphoneos-arm.deb
-Size: 13818
-MD5sum: c60ebaf9adadd1c0f0bbcbc019a4aed7
-SHA1: 76b9111d17d7e1d8d4621a5850cbca6c7cec7501
-SHA256: b942bb4db52a7da634b9b4df5368c3cd5b8b4108feedb64d0e5845171b6aedf6
+Maintainer: Ethan Whited
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.nahtedetihw.timestamp_1.2-5+debug_iphoneos-arm.deb
+Size: 6168
+MD5sum: baed380e7ee7a2b2b0f7414cdec18d27
+SHA1: e9e0dbd59c91ff766f13ab14c98bb712594b8640
+SHA256: 6141ce466d038cecdf4b6948a4f026710f152cfb6b7ea60d3a66af5dc9cbc0b9
 Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Description: Dynamically cycle between time and date in StatusBar!
+Author: Ethan Whited
+Name: Timestamp
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.5.0
+Package: com.nicho1asdev.konban
+Version: 0.3.1-4+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.5.0_iphoneos-arm.deb
-Size: 13734
-MD5sum: a70aae01bc22201775973de203686924
-SHA1: 7b4078adf56381d03d5d1efe866a7c482ab2a9e0
-SHA256: f8bc9d8aed4102eca25d39e66e8349d37e09ae9339f8633f3df8c9e5670562ba
+Maintainer: nicho1asdev
+Installed-Size: 520
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, firmware (>= 13.0)
+Conflicts: me.nepeta.konban
+Filename: ./debs/com.nicho1asdev.konban_0.3.1-4+debug_iphoneos-arm.deb
+Size: 61768
+MD5sum: 843a7b28e02b033bb984ea0f65f44ae2
+SHA1: 1f8c1d3d33c3f5647217c08965b1c80c8fdd7e22
+SHA256: 2fe81b4eb170f6450cb5491d716e8d2bc1944dd234dc7e6f4da5ccd27e84db42
 Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Description: Replaces the "Today" view with an app of your choice. Rewritten for iOS 13 and 14 by nicho1asdev.
+Author: nicho1asdev, Nepeta
+Depiction: https://nicho1asdev.github.io/repo/depictions/?p=com.nicho1asdev.konban
+Name: Konban
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.6.0
+Package: com.noisyflake.hiddenphotoscc
+Version: 1.0.0-4+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.6.0_iphoneos-arm.deb
-Size: 13792
-MD5sum: 2bceea02a84f5cf7df58d3b139d4ce3f
-SHA1: cdfe843ba47dc01e86e9506a67864f497a6fe1a0
-SHA256: c4dad4316daf482a0bfe4fcd3610dddfb283b8a9ecec9dc9319740fd3a3798b0
-Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Maintainer: NoisyFlake
+Installed-Size: 196
+Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.ccsupport
+Filename: ./debs/com.noisyflake.hiddenphotoscc_1.0.0-4+debug_iphoneos-arm.deb
+Size: 18462
+MD5sum: d495794c3da63e785ce6c54697a490e6
+SHA1: e020227cb9e4eac783221b1f6d516218acada8b8
+SHA256: fa58fc52cfca86bd9559bd3023c27b6bc2d535497b0263d1f6668f4841b6e243
+Section: Control Center (Modules)
+Description: Hidden Photos Control Center module
+Author: NoisyFlake
+Name: HiddenPhotosCC
 
-Package: com.haoict.microsoftdetectionbypass
-Version: 1.7.0
+Package: com.peterdev.libpddokdo
+Version: 1.3.5-3+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 304
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.7.0_iphoneos-arm.deb
-Size: 13902
-MD5sum: d39ea8abde8d390fb0b5300afc51c542
-SHA1: 49244d6b03eaa5f7c5a245a88526185794b25475
-SHA256: b3aeb98fee59e335c5fbadc5bb989b4d5b47be5639aaf89566ee1644e254a70c
-Section: Tweaks
-Description: Free Tweak for Microsoft Apps Detection Bypass
- Free Microsoft Apps Detection Bypass
- README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
- Change log: https://github.com/haoict/microsoft-detection-bypass/releases
- .
- Features:
- - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
-  + Outlook
-  + Teams
-  + Word
-  + Excel
-  + PowerPoint
-  + Office 365
-  + OneNote
-  + Power Apps
-  + OneDrive
-  + OneNote
-  + Skype for Business
-  + Edge
-  + SharePoint
-  + To Do
-  + Company Portal
-  + Yammer
-  + Power BI
- - Support iOS 12-14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Microsoft Detection Bypass
+Maintainer: Soongyu Kwon
+Installed-Size: 168
+Filename: ./debs/com.peterdev.libpddokdo_1.3.5-3+debug_iphoneos-arm.deb
+Size: 9146
+MD5sum: 1e66c6f60e18276aa225894eed297c96
+SHA1: d025984f709f86dbac3ca209514f7ee703649617
+SHA256: bea3d58426bd128ba9f6e1b79c5b228597339475fe22ba414f4eb9a8061de108
+Section: Development
+Description: An awesome library to get current weather which provides by iOS Weater.app easily.
+Author: Soongyu Kwon
+Name: libPDDokdo
 
-Package: com.haoict.redditnoads
-Version: 1.2.0
+Package: com.pixelomer.mobilegoose
+Version: 1.3.2-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 508
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.redditnoads_1.2.0_iphoneos-arm.deb
-Size: 218868
-MD5sum: c75e1b73066d75a1042fcfb5bd0b4b7c
-SHA1: a83e88f187c47c8c0ab077275ad7b2f1da6742c0
-SHA256: 996473c706ef2a7bbb798726c6639b1ce6007e712a7f60fab274374b50ef7eda
+Maintainer: pixelomer
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.pixelomer.mobilegoose_1.3.2-5+debug_iphoneos-arm.deb
+Size: 623158
+MD5sum: 33d6251bb23e73bf9d2c93214a92045b
+SHA1: e62f614e6ceae77966921b36b37e5a957c1851ce
+SHA256: 3ee8f1c12e4c580d6f647d0efdeca43a82091380136d003acb7fdf2081161b65
 Section: Tweaks
-Description: Free & Open Source Tweak for Reddit
- Free & Open Source Tweak for Reddit
- Change log: https://github.com/haoict/redditnoads/releases
- .
- Features:
- - Remove Ads (posts and comments)
- - Lightweight
- - Support iOS 12 - 14 & latest Reddit version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Reddit No Ads
+Description: An annoying goose for your iDevice
+Author: pixelomer
+Name: MobileGoose
 
-Package: com.haoict.redditnoads
-Version: 1.3.0
+Package: com.ps.apppad
+Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 508
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.redditnoads_1.3.0_iphoneos-arm.deb
-Size: 218240
-MD5sum: f8f0c741c437435016a3bfed62e3261e
-SHA1: 167d2969fc139cffe249f83868513262aeec5882
-SHA256: 25729188ce24a8526f27767e721f5a7ebb0a3107a434776c1498985cd999000a
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_0.0.1-5+debug_iphoneos-arm.deb
+Size: 5802
+MD5sum: 493945ba882611c76d220d077e2dccf2
+SHA1: 48bf953abbcc482b19e82a7fe5963db9fbae107d
+SHA256: c3fb80ed52068c2344bbaa9511dbe122a7cf9bd148d71650f9fe8edbb4de14e0
 Section: Tweaks
-Description: Free & Open Source Tweak for Reddit
- Free & Open Source Tweak for Reddit
- Change log: https://github.com/haoict/redditnoads/releases
- .
- Features:
- - Remove Ads (posts and comments)
- - Lightweight
- - Support iOS 12 - 14 & latest Reddit version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Reddit No Ads
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Name: AppPad
 
-Package: com.haoict.redditnoads
-Version: 1.4.0
+Package: com.ps.letmeblock
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 508
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.redditnoads_1.4.0_iphoneos-arm.deb
-Size: 218368
-MD5sum: d07ce1bbdbd1316545723258635ae8b7
-SHA1: c04cfbf29f450fbcc68912a918f95040cabf6cc7
-SHA256: 20c9a8583a248ac0e39e9646f851f170078ae5f612f1d856968eedfb4d81ec36
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_1.0.0_iphoneos-arm.deb
+Size: 7948
+MD5sum: cc31d1219f57c76f0a871644d01ab359
+SHA1: 74a4c6815b5fc3950d337ef2b61d42a2aa01fed9
+SHA256: f57ef48fd1850b95f872272b7608d853c0389529dfa52c1f6438df7a080cc7a1
 Section: Tweaks
-Description: Free & Open Source Tweak for Reddit
- Free & Open Source Tweak for Reddit
- Change log: https://github.com/haoict/redditnoads/releases
- .
- Features:
- - Remove Ads (posts and comments)
- - Lightweight
- - Support iOS 12 - 14 & latest Reddit version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Reddit No Ads
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
-Package: com.haoict.redditnoads
-Version: 1.5.0
+Package: com.ps.nottodayhomescreensidebar
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 512
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.redditnoads_1.5.0_iphoneos-arm.deb
-Size: 218808
-MD5sum: 989e5bf52ef37b68c72e1d6fe7dcd33e
-SHA1: 74282e4f45af4ce36e0128b45e35a577c6a1e4c8
-SHA256: 5ef4d29d8bc9f77a502e2804f50055ff729b51054de8597313d26cb78308040b
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 15.0)
+Filename: ./debs/com.ps.nottodayhomescreensidebar_1.0.0_iphoneos-arm.deb
+Size: 3630
+MD5sum: 2ea176e6b17d516e120ba5b5510325ca
+SHA1: d3c7a7690e2f1d90fbde5b4aeb2eb34017fd26b8
+SHA256: 3012c223e70429430acbdc7b17954e36d77a1de827d5f73a12dd75360a291a69
 Section: Tweaks
-Description: Free & Open Source Tweak for Reddit
- Free & Open Source Tweak for Reddit
- Change log: https://github.com/haoict/redditnoads/releases
- .
- Features:
- - Remove Ads (posts and comments)
- - Lightweight
- - Support iOS 12 - 14 & latest Reddit version (2021.47.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Reddit No Ads
+Description: Prevent Today View sidebar from being pinned on iPad homescreen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/nottodayhomescreensidebar.html
+Name: NotTodayHomeScreenSideBar
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/nottodayhomescreensidebar.json
 
-Package: com.haoict.redditnoads
-Version: 1.6.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 512
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.redditnoads_1.6.0_iphoneos-arm.deb
-Size: 218934
-MD5sum: 383c1042777e4e2eb3dc48e4a82e01f7
-SHA1: 2c05e3aae5aa52c1a9006d26cb0cb84e76d77cbc
-SHA256: a8fa3361cbaf8d2f4d328f51323a8be661fcd843dde65ef4fdcdb81320a613e0
-Section: Tweaks
-Description: Free & Open Source Tweak for Reddit
- Free & Open Source Tweak for Reddit
- Change log: https://github.com/haoict/redditnoads/releases
- .
- Features:
- - Remove Ads (posts and comments)
- - Lightweight
- - Support iOS 12 - 14 & latest Reddit version (2022.25.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Reddit No Ads
-
-Package: com.haoict.theshy
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 436
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 14)
-Filename: ./debs/com.haoict.theshy_1.1.2_iphoneos-arm.deb
-Size: 75876
-MD5sum: b37d83d6b534da39df142bd2a38a02bf
-SHA1: 410f3cdf1de07cf975bcf58c49c042f79e56ac0d
-SHA256: 894993684e43e48b26544bad482d08d49bf1aeaa3b7cc0437dabf67cd3d56fb9
-Section: Tweaks
-Description: Dim icons or labels after inactivity
- Dim icons or labels after inactivity
- Change log: https://github.com/haoict/the-shy/releases
- .
- Features:
- - Dim icons or labels after inactivity
- - Custom delay time
- - Custom icons or labels opacity
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: The shy
-
-Package: com.haoict.tiktokgod
-Version: 1.12.2
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 412
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_1.12.2_iphoneos-arm.deb
-Size: 53760
-MD5sum: 433fe426ab4f138171a35045f4dbf4e5
-SHA1: 7be4acfb6edb367dcdf28dff2f6d6e7a1d8b7705
-SHA256: b11e2690ad22f6983db61f10b9ad3f4bd6ad3a391e258cf3c214ecc00e239fa6
-Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
- .
- Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Support iOS 12 - 14 & latest TikTok version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: TikTok God
-
-Package: com.haoict.tiktokgod
-Version: 2.0.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_2.0.0_iphoneos-arm.deb
-Size: 46728
-MD5sum: e76de8a85778726e007ccfc59e685eb8
-SHA1: a1bd1360a47635109ac9062a7c62b896f021b392
-SHA256: 8e7bafd229cfe59f22a7208aaa6d5e7dba6222a18bcb36213ca07d630d1d72eb
-Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
- .
- Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Support iOS 12 - 14 & latest TikTok version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: TikTok God
-
-Package: com.haoict.tiktokgod
-Version: 2.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_2.1.0_iphoneos-arm.deb
-Size: 47232
-MD5sum: 4475ba0c8bdc169941a814d73fd809e8
-SHA1: 84a67860629ed4dd8a609052d4e380a9fd64e843
-SHA256: f1f6194b785bf9f62b287f9d6c852aed0c037a5a7e721337305f571d35a6b559
-Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
- .
- Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Support iOS 12 - 14 & latest TikTok version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: TikTok God
-
-Package: com.haoict.tiktokgod
-Version: 3.0.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 416
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_3.0.0_iphoneos-arm.deb
-Size: 50486
-MD5sum: 2a8c21b0eb33c14a4d663df900cb3952
-SHA1: 84894eb6f5fb00f38b6f3e833660bfa48e5a39b9
-SHA256: 1d4371746ad8433aee0db866cecfdc9126e0392948745248de8b3a9e627c6eee
-Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
- .
- Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Bypass jailbreak detection (make like and follow work)
- - Support iOS 12 - 14 & latest TikTok version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: TikTok God
-
-Package: com.haoict.tiktokgod
-Version: 4.0.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 420
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_4.0.0_iphoneos-arm.deb
-Size: 53932
-MD5sum: 7dfd37e996736671ea27be89a5be1dfc
-SHA1: 6bdc4c1b0c0b9524667a687358be0b7bcead5271
-SHA256: df6c21ba3e5d94cc4e423d1f5fe774b719185219618b25c29802cb7fcd1a6392
-Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
- .
- Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Bypass jailbreak detection (make like and follow work)
- - Support iOS 12 - 14 & latest TikTok version
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: TikTok God
-
-Package: com.haoict.twitchnoads
-Version: 2.0.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 620
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.twitchnoads_2.0.0_iphoneos-arm.deb
-Size: 318602
-MD5sum: cd1804fe5f9fb0395cd5657bda5914f6
-SHA1: e9bc0d74294929824718b679b089a3b6b5e07b01
-SHA256: af76c6c238b5a9766f217ad7490064cff1efde4daf3bcbe100699a7e8339d831
-Section: Tweaks
-Description: Free & Open Source Tweak for Twitch
- Free & Open Source Tweak for Twitch
- Change log:
- - v2.0.0: Better block ads
- .
- Features:
- - Remove Ads
- - Can save clip (live/stream video is currently not supported, press and hold on clip video to show download option)
- - Support iOS 12 - 14 & latest Twitch version
- .
- I collect uuid for better support and statistic purpose
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Twitch No Ads
-
-Package: com.haoict.twitternoads
-Version: 1.3.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 408
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
-Filename: ./debs/com.haoict.twitternoads_1.3.0_iphoneos-arm.deb
-Size: 108830
-MD5sum: db82d17c4d08ec31df7dddb39e4f020d
-SHA1: aecb16abf7e8213b9c56e665182561554a5a49c9
-SHA256: f2279422802bb9fa9bf5176f53844126cc4e01d58432a432b225df0af466460c
-Section: Tweaks
-Description: Free & Open Source Tweak for Twitter
- Free & Open Source Tweak for Twitter
- Change log: https://github.com/haoict/twitter-no-ads/releases
- .
- Features:
- - Remove Ads
- - Remove Fleets
- - Hide News and Trending posts in search tab
- - Hide who to follow section
- - Can Save Video (long press on video to save)
- - Skip analytic URL when open a link
- - Lightweight
- - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest Twitter version (If it doesn't work, you should update the app to latest version)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Twitter No Ads
-
-Package: com.haoict.twitternoads
-Version: 1.4.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 404
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
-Filename: ./debs/com.haoict.twitternoads_1.4.0_iphoneos-arm.deb
-Size: 106844
-MD5sum: a8e19398774c9dc01af66d5b5bb9d685
-SHA1: fbc4e2660926837faae9d6b1498a58e307106899
-SHA256: ff5047c6a0d2a6357262a1c7cd9f9bbf4979af7a1d9d4b6093a089b4fa7f30b8
-Section: Tweaks
-Description: Free & Open Source Tweak for Twitter
- Free & Open Source Tweak for Twitter
- Change log: https://github.com/haoict/twitter-no-ads/releases
- .
- Features:
- - Remove Ads
- - Remove Fleets
- - Hide News and Trending posts in search tab
- - Hide who to follow section
- - Can Save Video (long press on video to save)
- - Skip analytic URL when open a link
- - Lightweight
- - Support iOS 12 - 14 & latest Twitter app
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Twitter No Ads
-
-Package: com.haoict.twitternoads
-Version: 1.5.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 408
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.twitternoads_1.5.0_iphoneos-arm.deb
-Size: 104164
-MD5sum: 63350f730a329a0f076bdc0a33f16b32
-SHA1: 8386ca08481a065b0862c2510a80a528eff5b7e8
-SHA256: 1ba7005435bf6c1de602d09e06a7ab5c2cd79e5bec5ee1a6824296638b3607bd
-Section: Tweaks
-Description: Free & Open Source Tweak for Twitter
- Free & Open Source Tweak for Twitter
- Change log: https://github.com/haoict/twitter-no-ads/releases
- .
- Features:
- - Remove Ads
- - Can Save Video (long press on video to save)
- - Skip analytic URL when open a link
- - Lightweight
- - Support iOS 12 - 14 & latest Twitter app
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Twitter No Ads
-
-Package: com.haoict.weatherplus
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 528
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.2.0), firmware (>= 10)
-Filename: ./debs/com.haoict.weatherplus_1.1.0_iphoneos-arm.deb
-Size: 205022
-MD5sum: d78fe26fdf37339d445b27ae4b3139ce
-SHA1: ea9d1457cbbf78ac0671e7ad693bae67b8acb954
-SHA256: d95923fec38a7f6239bd083d293e3c423681874cf4e457e496ae9fea78cbf26f
-Section: Tweaks
-Description: Free & Open Source Tweak for Weather App
- Free & Open Source Tweak for Weather App
- Change log: https://github.com/haoict/weather-plus/releases
- .
- Features:
- - Add the date next to each day
- - Custom format (dd/MM, MM/dd, etc,...)
- - Support iOS 10-13 & latest Weather app version
- .
- I collect uuid for better support and statistic purpose
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Weather Plus
-
-Package: com.opa334.ccsupport
-Version: 1.2.2
+Package: com.rpetrich.powercuff
+Version: 0.2-4+debug
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 201
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.2.2.deb
-Size: 35410
-MD5sum: bedc14592047dfd4d98fd7118ade5cc2
-SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
-SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+Installed-Size: 160
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.rpetrich.powercuff_0.2-4+debug_iphoneos-arm.deb
+Size: 14518
+MD5sum: e4ef3dcb671cf4a5c16d9483d4510a9a
+SHA1: 8c0a3cf18a0394fceb8c17f4082e0372046432ee
+SHA256: fe95e650751f766ed10cc5beb6f562ba7772fcfc1e2ac2b9d615a130cd4e74cc
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Description: Support tweak for CC modules!
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Dev: opa334
-Name: CCSupport
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Depiction: http://rpetri.ch/cydia/powercuff/
+Dev: rpetrich
+Name: Powercuff
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.ryannair05.little11
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Installed-Size: 228
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Filename: ./debs/com.ryannair05.little11_1.2.1_iphoneos-arm.deb
+Size: 21262
+MD5sum: f60e7133e93abb97c45505baf79a3b97
+SHA1: 713e130a2d75843a1c74a177403163423503e511
+SHA256: 6f64d2fceb5b48b68686086e770dfa9496b2d4c99037974ed88f4195e4f6c779
+Section: Tweaks
+Description: iPhone 11 gestures and more for iOS 13.
+Author: Ryan Nair
+Name: Little11
+
+Package: com.samoht.sana
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: samoht
+Installed-Size: 792
+Depends: mobilesubstrate, firmware (>= 13)
+Filename: ./debs/com.samoht.sana_1.0-3+debug_iphoneos-arm.deb
+Size: 448568
+MD5sum: 076e1c112bd23ef8d3209c9243410db8
+SHA1: d28b41371580ac026b0ce7ea4d446bb0dc570a71
+SHA256: 8b9a2a84d1914c66af820df67116ee38c5e106fe1d52157d40cf5cd302633f69
+Section: Tweaks
+Description: Change the way your volume HUD looks like.
+Author: samoht <totobighouse@gmail.com>
+Icon: file:///Library/PreferenceBundles/sanaPrefs.bundle/icon@3x.png
+Name: sana
+
+Package: com.shemeshapps.notiblock
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, applist
+Filename: ./debs/com.shemeshapps.notiblock_0.0.6-5+debug_iphoneos-arm.deb
+Size: 384414
+MD5sum: 532432c28a38ba3e6685a62b227e1dd5
+SHA1: b9ae5ac07e17d11b6895fa6d9078dc0e85cd4255
+SHA256: 0ca790dac9bc05ef15f0994ac4428fa28bf99db5b5fa0adc972cba97ffe93fa7
+Description: NotiBlock - Block notifications and take control of your digital well-being
+ Push notifications are a gift and a curse, allowing you to get notified instantly of important information, but also opening a door into letting people and apps interrupt your life without your consent. The tools Apple gives us are not powerful enough to stop the spam of notifications, and required a more advanced tool set.
+Name: NotiBlock
+
+Package: com.shepgoba.photoinfo
+Version: 1.0-5
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.shepgoba.photoinfo_1.0-5_iphoneos-arm.deb
+Size: 4410
+MD5sum: 26e4c943b60cfc1f53ecda8ccebc58e7
+SHA1: d7567b3883ab31e595c2d1795596089107c3121f
+SHA256: b37d72a94c862f947f8d3b2fcd234c5b88a0330b695d813aa6d544e3d6b0b29b
+Section: Tweaks
+Description: Show photo resolution and disk usage in app
+Author: shepgoba
+Name: PhotoInfo
+
+Package: com.shepgoba.remove3doptions
+Version: 1.0-7+debug
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 13.2)
+Filename: ./debs/com.shepgoba.remove3doptions_1.0-7+debug_iphoneos-arm.deb
+Size: 10654
+MD5sum: fee6a93f4a036eb806a06f0223883a68
+SHA1: fa37233f659cde5193bca8c779258c4d6a91087d
+SHA256: 917074148a931454762cf158781fb6c4239111ee97a121b479ea4d64ec715b75
+Section: Tweaks
+Description: Hide the delete option for apps on iOS 13.2
+Author: shepgoba
+Name: Remove3DOptions
+
+Package: com.shiftcmdk.awesomepagedots
+Version: 1.2-6+debug
+Architecture: iphoneos-arm
+Maintainer: shiftcmdk
+Installed-Size: 368
+Depends: mobilesubstrate
+Filename: ./debs/com.shiftcmdk.awesomepagedots_1.2-6+debug_iphoneos-arm.deb
+Size: 37892
+MD5sum: c4bdefbce2625629e2ebdefa3c2537c1
+SHA1: e2c3423e8ff4140c053b137bfa9c0804e1cdef5b
+SHA256: 7e14f00162b42e565b546f66d69dc3b6b110c22ccd0a64fff994a0125c419ef7
+Section: Tweaks
+Description: Animated page control for the home screen.
+Author: shiftcmdk
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.awesomepagedots
+Name: AwesomePageDots
+
+Package: com.snail.bypassalipay
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Snail
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.snail.bypassalipay_1.0.0_iphoneos-arm.deb
+Size: 7512
+MD5sum: b1c2bb3dd2f7e6a771a104e8e2ee478d
+SHA1: e7f5f1f2f7d8fe5ebc7485f428999485da97a567
+SHA256: fe6ce7ff3ed4082309243ee695a9d6813717cfb6f0e93030ed420fdc21688de3
+Section: Tweaks
+Description: 用最精简的技术，一劳永逸，屏蔽支付宝越狱检测。
+Author: Snail <snailsohi@gmail.com>
+Name: 屏蔽支付宝越狱检测
+
+Package: com.snail.bypassccbank
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Snail
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.snail.bypassccbank_0.0.1_iphoneos-arm.deb
+Size: 3304
+MD5sum: 77abc3be5c11c0a6bfe78f7d074872d2
+SHA1: d00529559a7a238c3aad5b15cf91b9c7996e73cd
+SHA256: 72c56ed5fa07111feecbeecb2b7ad0d396568ca5918f9b7270248026109ab864
+Section: Tweaks
+Description: 屏蔽所有版本建设银行的越狱检测和强制关闭弹窗，一劳永逸。
+Author: Snail <snailsohi@gmail.com>
+Name: 建设银行屏蔽越狱检测
+
+Package: com.swiftyper.wechatredenvelop
+Version: 2.0.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: 请叫我小锅
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debs/com.swiftyper.wechatredenvelop_2.0.0-5+debug_iphoneos-arm.deb
+Size: 127274
+MD5sum: 697f67049f800081edd643d062654e12
+SHA1: edf374219ab66b6f5a12732d3272574bcb000990
+SHA256: 4147c3c6490a81884c743bc65e7a9680583c280726e70ab1777ed4f2f56b01a8
+Section: Tweaks
+Description: 微信抢红包插件
+Author: 请叫我小锅
+Name: WeChatRedEnvelop
+
+Package: com.tomaszpoliszuk.alertcontroller
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 424
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tomaszpoliszuk.alertcontroller_1.4.2_iphoneos-arm.deb
+Size: 75264
+MD5sum: 2a6dba32599c902540e55b989ee725ef
+SHA1: a11132f07cf62b9c639fa3795ee67dd307f01c5f
+SHA256: e61aa4e445f473ac8184e8107b78254f19f9ab7f732fbf7046d87f56577185dc
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alertcontrollerDp
+Description: Alert Controller - Control UX and UI of your Alerts and Action Sheets
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alertcontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/AlertControllerSettings.bundle/icons/AlertController@3x.png
+Name: Alert Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.applibraryenabler
+Version: 1.0
+Architecture: iphoneos-arm
+Installed-Size: 336
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, cy+model.ipad
+Filename: ./debs/com.tomaszpoliszuk.applibraryenabler_1.0_iphoneos-arm.deb
+Size: 9120
+MD5sum: dedab05a410a03ed115a9d996e0f0847
+SHA1: b15a75fc1ba278acd24dc58e1ecfd367abdad6f1
+SHA256: c28cfb97884bd3d3de5fb792481647d0fceaaa669c3a52f954fa52d506aaf9bd
+Section: Tweaks
+Description: Enable App Library on iPadOS
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Dev: tomaszpoliszuk
+Name: App Library Enabler
+
+Package: com.tomaszpoliszuk.camerazoomslider
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 168
+Depends: firmware (>= 13.4), mobilesubstrate
+Filename: ./debs/com.tomaszpoliszuk.camerazoomslider_1.0.1_iphoneos-arm.deb
+Size: 3126
+MD5sum: d6cd327dcd79beb56a91137964b276c6
+SHA1: db7ceac63f27ba1308df8007581a91dd1fc7db2a
+SHA256: 246f822d83080af81e5a89e1d5c1cc9e3c98785ca148a2c7ac3da7c3994dab29
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=camerazoomsliderDp
+Description: Enable new type of Camera Zoom Slider
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=camerazoomsliderDp
+Dev: tomaszpoliszuk
+Name: Camera Zoom Slider
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.dockcontroller
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 400
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tomaszpoliszuk.dockcontroller_1.6.2_iphoneos-arm.deb
+Size: 61632
+MD5sum: 4ba0d0cb44f4842117957c3e805f2a56
+SHA1: 4e1e284bb15268688f099e873fca9913cbd75603
+SHA256: 7f6024b7419390f084a3ef540e439b23003f8cc9418a298eb8b2846607ca87ad
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Description: Control Your Dock
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/DockControllerSettings.bundle/icons/DockController@3x.png
+Name: Dock Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.homescreenquickactions
+Version: 1.6.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 632
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tomaszpoliszuk.homescreenquickactions_1.6.5_iphoneos-arm.deb
+Size: 104634
+MD5sum: 07b75f33358127b26f936090abc634e7
+SHA1: 4c17044acc034660e2c1ee99c27eb2082e04683c
+SHA256: 457bf93d0426efb958370b14e1c986b08d3291bc5f1abfb68fec56bd9189c457
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=homescreenquickactionsDp
+Description: Control Home Screen Quick Actions on your device
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=homescreenquickactionsDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
+Name: Home Screen Quick Actions
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.twickd.1di4r.you-up
+Version: 1.7.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: 1di4r
+Installed-Size: 380
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis (>= 1.1)
+Filename: ./debs/com.twickd.1di4r.you-up_1.7.1-5+debug_iphoneos-arm.deb
+Size: 38772
+MD5sum: e579c0a54099781fdf458b428a47e02f
+SHA1: cebc755677006f1593e14be864cc640837926fbe
+SHA256: 4b1f3af1352de0595609b70481f79af1c896151c51e734b00c1b6a11cc1511ba
+Section: Tweaks
+Description: Solve math equations before dismissing your alarm.
+Author: 1di4r
+Icon: http://1di4r.cf/Youup/Youup-icon.png
+Name: You up?
+
+Package: com.twickd.john-sklikas.3dbadgeclear
+Version: 1.6.8-7+debug
+Architecture: iphoneos-arm
+Maintainer: isklikas
+Installed-Size: 672
+Depends: mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Provides: com.isklikas.3dbadgeclear
+Filename: ./debs/com.twickd.john-sklikas.3dbadgeclear_1.6.8-7+debug_iphoneos-arm.deb
+Size: 132912
+MD5sum: b5a177d93351be8b62635cc19e228e99
+SHA1: 075246702bde7b5b5d50d5d590e4293bd026f591
+SHA256: 9e40618d9e483e10c7c464a7c394cc8badf0183d5562bc679bcbb78afaed4ece
+Section: Tweaks
+Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.
+Author: isklikas
+Name: 3DBadgeClear
+
+Package: com.udevs.perseus
+Version: 1.4.1-7+debug
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 768
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.udevs.vexillarius | firmware(<<14.0), com.rpetrich.rocketbootstrap (>= 1.0.2), com.opa334.altlist
+Filename: ./debs/com.udevs.perseus_1.4.1-7+debug_iphoneos-arm.deb
+Size: 160974
+MD5sum: c23cae37b241ef033e8b774507551842
+SHA1: 9cd9075e88ec8b006d5c5a0f85483d7b9a0232a1
+SHA256: 12ab0130a3af9fb8384f4d8e77015c93ca8480e90994b3cb5ef3a4d83102d44e
+Section: Tweaks
+Description: Unlock iPhone with Apple Watch
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.perseus
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.png
+Name: Perseus
+
+Package: com.volumestep13.randy420
+Version: 0.0.9
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner28@outlook.com>
+Installed-Size: 356
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.volumestep13.randy420_0.0.9_iphoneos-arm.deb
+Size: 68372
+MD5sum: 0158dfc28518d899035f007c9728cb90
+SHA1: 9d8ac4ab6feac30cd3dc6c49734a9ffeced35d2c
+SHA256: 0d119ce703b2bf7274219ca1e5e35bdd54c98020222343c2fc9738953927f4a7
+Section: Tweaks
+Description: Change the volume step limits
+Author: Randy420
+Name: VolumeStep13
+
+Package: com.wilsonthewolf.eliza
+Version: 0.0.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: WilsontheWolf
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware(>=12.0)
+Filename: ./debs/com.wilsonthewolf.eliza_0.0.2-4+debug_iphoneos-arm.deb
+Size: 8260
+MD5sum: 451e111ef43226c4816228d9779d0682
+SHA1: ff1d7dcc763af60ae436e5a852b050b83c08e587
+SHA256: 2bf7d51dd2f3850dd1bc2bc5f418ac6f065df1723797d20d4d5a7a0ba1894757
+Section: Tweaks
+Description: Make your battery colourful!
+Author: WilsontheWolf
+Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.eliza
+Name: Eliza
+
+Package: com.wilsonthewolf.timejump
+Version: 0.0.2-5+debug
+Architecture: iphoneos-arm
+Maintainer: WilsontheWolf
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.wilsonthewolf.timejump_0.0.2-5+debug_iphoneos-arm.deb
+Size: 15436
+MD5sum: df3ed08cbdb84ca51588040f698a54ba
+SHA1: 6b7ca03977f8d34834c7c2ff1dd9315f9f058020
+SHA256: 96854df19630186dc2259f4d76f1c89214fac053636ce3b63c38b609b97439da
+Section: Tweaks
+Description: Jump Time.
+Author: WilsontheWolf
+Depiction: https://wilson.antti.codes/repo/depictions/web/com.wilsonthewolf.timejump
+Icon: file:///Library/PreferenceBundles/TimeJumpPrefs.bundle/Icon@3x.png
+Name: TimeJump
+
+Package: com.wrp1002.shutupshortcuts
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.2)
+Filename: ./debs/com.wrp1002.shutupshortcuts_1.0.0_iphoneos-arm.deb
+Size: 115720
+MD5sum: 99a662f10e46723ba3fd1546d1a27a19
+SHA1: 3fdf939cec99af5db4e79d64a72dd3f5721cdcd5
+SHA256: 420d207cd3df67fabd4310a2b90462ba0e07c28ce2de1cb2e96493c1c9202cd8
+Section: Tweaks
+Description: Stop Shutcut notifications!
+Author: Wes <wes.hamster@gmail.com>
+Name: ShutupShortcuts
+
+Package: com.xyaman.libkuro
+Version: 0.0.3-3+debug
+Architecture: iphoneos-arm
+Maintainer: Diego Barría
+Installed-Size: 172
+Filename: ./debs/com.xyaman.libkuro_0.0.3-3+debug_iphoneos-arm.deb
+Size: 7968
+MD5sum: d74fb0cddb7a891907d8f6ebd6a82755
+SHA1: 363aac877b112146d200dcac2a7883458e8c8148
+SHA256: 9615331f453ea0add0856db1bde8bce06d64a21f610b268f2734b027563a2959
+Section: System
+Description: Very simple image library.
+Tag: role::developer
+Author: Diego Barría
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libkuro
+Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
+Name: libKuro
+Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
+
+Package: com.yourcompany.appstorenoads
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.appstorenoads_0.0.1-4+debug_iphoneos-arm.deb
+Size: 6852
+MD5sum: d50bf0e5619ccb4b7f6a82257a07ab7c
+SHA1: 4df1fb094fda27d0148eeb2af51d9ec764c5d110
+SHA256: 568b938880b280210b82305e7c629ccb8123c0d3207cf27ef493b20d32c9a97b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: appstorenoads
+
+Package: com.yourcompany.respring
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 168
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.yourcompany.respring_0.0.1-2+debug_iphoneos-arm.deb
+Size: 18418
+MD5sum: ebe372052b91e6f31498347afc57888d
+SHA1: 2909877a42f4b5c09cc637b728e35b61241abc1a
+SHA256: 01a48aa0f9e5f0947cb7b546b47168df2be15fc10c34381d7f8b43e3bd37cd47
+Section: Control Center (Modules)
+Description: An awesome Control Center module!
+Author: lovez
+Name: respring
+
+Package: com.yuigawada.callslicer
+Version: 1.4-4+debug
+Architecture: iphoneos-arm
+Maintainer: YuWd
+Installed-Size: 896
+Depends: mobilesubstrate, ws.hbang.common (>= 1.2)
+Filename: ./debs/com.yuigawada.callslicer_1.4-4+debug_iphoneos-arm.deb
+Size: 470316
+MD5sum: 6fb351579436325af29ac257c76d7119
+SHA1: ed00dd11e4c974515cccd7636cface5fa66ebd80
+SHA256: d59e58bf94a5985e0dde14e9964afcc9a58e367b4570ee460238a7d624e2dee2
+Section: Tweaks
+Description: CallSlicer enables you to receive a third-party incoming call on your Apple Watch!
+Author: YuWd
+Name: CallSlicer
+
+Package: daniel.trustevaluator
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debs/daniel.trustevaluator_0.0.1-5+debug_iphoneos-arm.deb
+Size: 3900
+MD5sum: 7b06845fa1231db94a6fc0a3dcf8798c
+SHA1: b045ddc0c5c1e69b5286f87d44d0606503bfedc6
+SHA256: 9fbda2ed840de28768865492894e3d07af6f67d0ea192a0ff443657bfc2f4d34
+Section: Tweaks
+Description: Allow installing unsigned profiles with the ability to write global defaults.
+Author: daniel
+Name: TrustEvaluator
+
+Package: dev.hyper.playing
+Version: 1.0.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: HyperDev <hyper.devv@gmail.com>
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader, com.cokepokes.libnotifications, ws.hbang.common (>= 1.11), firmware (>=12.0)
+Filename: ./debs/dev.hyper.playing_1.0.0-5+debug_iphoneos-arm.deb
+Size: 62616
+MD5sum: 6836febe1083a4bda1a9ea2087cd91c5
+SHA1: df70ebe1058b6ee41b0173c8bfeeb2d6255b5da4
+SHA256: 9c76fe41ddacb0c8e73462a4a5b8c5f42fa8fb9eb565055ccd60f5235e4f5ac2
+Section: Tweaks
+Description: Get a notification when a new song starts
+Author: HyperDev <hyper.devv@gmail.com>
+Name: Playing
+
+Package: dev.traurige.libkitten
+Version: 1.3.3-4+debug
+Architecture: iphoneos-arm
+Maintainer: Traurige
+Installed-Size: 168
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Filename: ./debs/dev.traurige.libkitten_1.3.3-4+debug_iphoneos-arm.deb
+Size: 11238
+MD5sum: ecfe849a86779ab58aa28adf10ed9eac
+SHA1: 638338574e166ffee55041db80b005c1b2fa1b6b
+SHA256: 60ff5444d2e2dcab68e8cfe4b798687e33527f90561f3f72070e6a2a98037aee
+Section: System
+Description: Collection of image and color calculations
+Tag: role::developer
+Author: Traurige
+Name: libKitten
+
+Package: jp.soh.freepip
+Version: 0.0.3-5+debug
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/jp.soh.freepip_0.0.3-5+debug_iphoneos-arm.deb
+Size: 8252
+MD5sum: 78e1b49f9b4b34f221fab248e379905d
+SHA1: 183b1b0aca966fb28e2882c99e11190dba657fa2
+SHA256: 92c5705e0f849cf0388fde558f6d7134f45f4c872551b2958c9063cb1a3578d2
+Section: Tweaks
+Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Picture on iOS unlimitedly.
+Author: Soh Satoh
+Name: FreePIP
+
+Package: love.litten.appareilphoto
+Version: 0.9-12+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.appareilphoto_0.9-12+debug_iphoneos-arm.deb
+Size: 3640
+MD5sum: 2503828843bd46cc1431ce25906423f4
+SHA1: 30c14f548d750cd12fc15cd3157c3e8d742157d3
+SHA256: fbe70c9edb2ce8f7ff103a3c11cca383d2228e5370ef685fde8f5dd598a89436
+Section: unreleased
+Description: New camera layout for older phones
+Author: alexandra
+Name: Appareil Photo
+
+Package: love.litten.ember
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.ember_0.9-3+debug_iphoneos-arm.deb
+Size: 4308
+MD5sum: be449aeb07b3c512ea3d2a890ad6d99f
+SHA1: a15b6622c4a23d752d886f9a62b3ff8aef2c86e9
+SHA256: fa0bbb6ee9d2ad6194c0313f920a6ff497137364bd0c3c78428b4be763246d58
+Section: unreleased
+Description: Enable do not disturb with the ringer switch
+Author: alexandra
+Name: Ember
+
+Package: love.litten.hate
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.hate_0.9-3+debug_iphoneos-arm.deb
+Size: 5824
+MD5sum: 5621c013af99e0bafd850cb23bf23bc9
+SHA1: ec3c50206810251bb578d6fd985d9216c89a356c
+SHA256: 41f2d0534731e4092afbf0a023b84c35a09ef452142895f491c424ca93b5c5b9
+Section: unreleased
+Description: OLED keyboard
+Author: alexandra
+Name: HATE
+
+Package: love.litten.letter
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 13.0), love.litten.libkitten
+Filename: ./debs/love.litten.letter_0.9-3+debug_iphoneos-arm.deb
+Size: 6058
+MD5sum: 39840d9e2d97aac50918198279e252b1
+SHA1: 27604dc570d86a72f133204ad99415cc6f70425a
+SHA256: 682e8926fab31b81b2c69aa98d374fcfb7826131111b9f973796231b37fc2867
+Section: unreleased
+Description: App icon color adaptive keyboard
+Author: alexandra
+Name: Letter
+
+Package: love.litten.lou
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 392
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Filename: ./debs/love.litten.lou_0.9-3+debug_iphoneos-arm.deb
+Size: 21750
+MD5sum: e37e6c23d6e5cbd494366f10ff88acc9
+SHA1: 09d4ee956ed974486fd3235e4124207ee7978993
+SHA256: 5e78a73440b2f9a75ab0f05e1d07d5502bbce40976e64c60fc7224919667002c
+Section: unreleased
+Description: Auto unlock for certain situations
+Author: alexandra
+Name: Lou
+
+Package: love.litten.lune
+Version: 1.1.3-5+debug
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1160
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.spark.libsparkcolourpicker
+Filename: ./debs/love.litten.lune_1.1.3-5+debug_iphoneos-arm.deb
+Size: 756640
+MD5sum: b44121343f7aa4fb2cad599d9a1d6a5b
+SHA1: 92eabcbbdf72831902401ba2bb8a1651bd16f611
+SHA256: 07c641166d8636adc79939ccedd31b55487e8db642ed64611cfd9aa542c6ec36
+Section: Tweaks
+Description: Twinkle twinkle little star
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/lne/index.html
+Icon: https://repo.litten.love/depictions/lne/assets/icon.png
+Name: Lune 🌙
+Sileodepiction: https://repo.litten.love/depictions/lne/lne.json
+
+Package: love.litten.neverland
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/love.litten.neverland_0.9-3+debug_iphoneos-arm.deb
+Size: 4974
+MD5sum: e7c74e39b0ea95da6417179cd76af239
+SHA1: 2fe4e733acd8bcd741b58f4fe28675a1503d24f0
+SHA256: eebc7cd004b3fa0eb5c5d3d0153a3f744163fdca0abf9b83768a898ad048f0c4
+Section: unreleased
+Description: Prevent the now playing app from being closed
+Author: alexandra
+Name: Neverland
+
+Package: love.litten.nolowpoweralert
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.nolowpoweralert_0.9-3+debug_iphoneos-arm.deb
+Size: 3384
+MD5sum: 9e0e0b5cd6746aa82ac0b24527685734
+SHA1: a3fbd8c4c26bed449a58e65e71d645cbd56b648c
+SHA256: d7076616cd082536b5a65804ce9a7e72e4f9d0455b3ab8d29ddb1dfb9fd953ff
+Section: unreleased
+Description: Remove the low power alert
+Author: alexandra
+Name: NoLowPowerAlert
+
+Package: love.litten.playlist
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.playlist_0.9-3+debug_iphoneos-arm.deb
+Size: 8344
+MD5sum: 25baaaa95c2262cb17e9736264c91df8
+SHA1: e293e6e8e8e6ddafc742e3db24461c6d04b3d661
+SHA256: 62516c536cb44756e742e060ee880012341311a5bcb3b6f60da6a875a8c97e10
+Section: unreleased
+Description: Notifications for song changes
+Author: alexandra
+Name: Playlist
+
+Package: love.litten.proudlock
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.proudlock_0.9-3+debug_iphoneos-arm.deb
+Size: 3380
+MD5sum: 1ba6c7cda0fc68db075a2b0c9c9ccbe2
+SHA1: 24302642f8fafd76de73f64b301d1a94bc4e8236
+SHA256: 71a47688af770f7dd2beb300b3dae31ee426178bc9afa2e56dca7eb631f8be96
+Section: unreleased
+Description: Show the faceid lock when passcode is disabled (just for the appearance)
+Author: alexandra
+Name: ProudLock
+
+Package: love.litten.stardust
+Version: 0.9-3+debug
+Architecture: iphoneos-arm
+Maintainer: alexandra
+Installed-Size: 176
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/love.litten.stardust_0.9-3+debug_iphoneos-arm.deb
+Size: 10762
+MD5sum: 171dc7a4821eb5c8ec0077b97b702933
+SHA1: 6b9fc01bdab1a6aca2f5743b14deb4ed5fc1fb40
+SHA256: f8336385973bfc683185c6cab29a84185ed5ec4d2937957d560bac438e5eb44f
+Section: unreleased
+Description: Spotify now playing redesign
+Author: alexandra
+Name: Stardust
+
+Package: me.bismih.qq.toggle
+Version: 0.9.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: bisih
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debs/me.bismih.qq.toggle_0.9.0-4+debug_iphoneos-arm.deb
+Size: 6294
+MD5sum: 9b685cbf45a0b4895db717b7f06b22aa
+SHA1: a0e44ef61319401ff77a9a0e3a196fac4a01500c
+SHA256: 049d010c334584c3a085f1e854236601ecf61c758493d05c98eed2575f5b1950
+Section: Tweaks
+Description: An awesome Control Center module!
+Author: Luki
+Name: NetflixToggle
+
+Package: me.conorthedev.honeybadger
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Installed-Size: 208
+Depends: mobilesubstrate
+Filename: ./debs/me.conorthedev.honeybadger_1.0.0-4+debug_iphoneos-arm.deb
+Size: 36822
+MD5sum: e7409cebb95c238584281985a7b7e19e
+SHA1: 01defd963a14530bc8af20a08748be87eafad1d0
+SHA256: 335b744e5185c8704032d0dc8a8b4497642246f9902d2b7649b634c8353e4057
+Section: Tweaks
+Description: A tweak to clear badges in apps from the 3D Touch Menu
+Author: ConorTheDev <con0r.b@protonmail.com>
+Depiction: https://repo.conorthedev.me/depictions/me.conorthedev.honeybadger
+Icon: https://repo.conorthedev.me/icon/me.conorthedev.honeybadger
+Name: HoneyBadger
+Sileodepiction: https://repo.conorthedev.me/sileodepiction/me.conorthedev.honeybadger
+
+Package: me.conorthedev.lockwidgets
+Version: 2.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Installed-Size: 904
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Filename: ./debs/me.conorthedev.lockwidgets_2.0-5+debug_iphoneos-arm.deb
+Size: 99854
+MD5sum: 82e2dfd2abd009153e91138c28184c08
+SHA1: c8875d007f2c1811e5df094cfb17315e55fd0134
+SHA256: dc871688226b5538e89b41d933aeed0cc970276c9b28a7f69afe3c0d53702b74
+Section: Tweaks
+Description: Access your favourite widgets, directly on your lockscreen
+Author: ConorTheDev <con0r.b@protonmail.com>
+Icon: https://repo-cdn.dynastic.co/249611208846475265.fdd5c6a336e3762bd34a54af1275d1b0-256
+Name: LockWidgets
+
+Package: me.conorthedev.shylabels13
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: ConorTheDev
+Installed-Size: 300
+Depends: mobilesubstrate
+Replaces: com.noisyflake.shylabels
+Filename: ./debs/me.conorthedev.shylabels13_1.2_iphoneos-arm.deb
+Size: 28162
+MD5sum: 9defd8df4ed7cdefbcab02ac01d94fa0
+SHA1: 4467be4a4c61aa480e720a2191f41a5797f29037
+SHA256: 1dc799621d02d055a8438d9b7fc371d90bfc7d7178cabaef6226e12af8b1275e
+Section: Tweaks
+Description: Hide app labels when not scrolling (updated for iOS 13)
+Author: ConorTheDev, NoisyFlake
+Name: ShyLabels13
+
+Package: me.daveapps.counted
+Version: 1.1-24+debug
+Architecture: iphoneos-arm
+Maintainer: Dave van Wijk
+Installed-Size: 348
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/me.daveapps.counted_1.1-24+debug_iphoneos-arm.deb
+Size: 54658
+MD5sum: da711f129ac39b4d62b06758dd570b70
+SHA1: 95ab251354cb79026c2c0d314889376d304bfd7d
+SHA256: 94139e88a9adc031f2535fdbd9f47b0beeaa4ce3907efd2f0eb10c9bc1f70de1
+Section: Tweaks
+Description: Your days are Counted
+Author: Dave van Wijk
+Icon: https://daveapps.nl/tweaks/icon_counted_site.png
+Name: Counted
+Support: https://github.com/vanwijkdave/Counted/issues
+
+Package: me.jjolano.shadow
+Version: 3.0.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 432
+Depends: mobilesubstrate | com.ex.substitute | org.coolstar.libhooker, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap, applist, firmware (>= 11.0)
+Filename: ./debs/me.jjolano.shadow_3.0.0-3+debug_iphoneos-arm.deb
+Size: 19396
+MD5sum: 4b6bce9cf531c95e7ba99f4db31a72ee
+SHA1: e3d8410fda830926c4618fffcd45092682fbdb03
+SHA256: f7fc6442becde92cb5c235920c9349d6565cf53f34d4e6ccec8af2aee00b6d83
+Section: System
+Description: A jailbreak detection bypass for modern iOS jailbreaks.
+Author: jjolano
+Name: Shadow
+
+Package: me.krit.notdoxed
+Version: 1.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: WilsontheWolf
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/me.krit.notdoxed_1.1-3+debug_iphoneos-arm.deb
+Size: 4224
+MD5sum: 3e6cddf30718b36b5333438420090c1c
+SHA1: 077a1593a6c57c5cd117d248d83196850f3df77f
+SHA256: 2288d5a1aee03b1fcd76512381db11c0cc4846ef21b64c159a0190612f1c94df
+Section: Tweaks
+Description: Hide personal info in common apps.
+Author: krit
+Depiction: https://wilsonthewolf.github.io/repo/depictions/web/me.krit.notdoxed
+Name: NotDoxed
+Sileodepiction: https://wilsonthewolf.github.io/repo/depictions/sileo/me.krit.notdoxed
+
+Package: me.kritanta.deadringer
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Kritanta
+Installed-Size: 176
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/me.kritanta.deadringer_0.1.0_iphoneos-arm.deb
+Size: 10070
+MD5sum: 8a176ec40e05d544fd0593317747c44b
+SHA1: 169e6e8cb03090eb406c3c6bed32ffa64a7223e3
+SHA256: 4e1d5a5ca76cfcb20cea7759b590a3f7406707438418162e5dab772ec98e5cca
+Section: Tweaks
+Description: Minimalist ringer icon in top left corner
+Author: Kritanta
+Name: DeadRinger
+
+Package: me.lau.anne
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ren7995
+Installed-Size: 332
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/me.lau.anne_1.0.1_iphoneos-arm.deb
+Size: 7598
+MD5sum: e5dd92b7aca88c7e0231e5578dc2a4e2
+SHA1: 0f537eeec191ae5374b9d230b794c15e5553f3c0
+SHA256: a76ae5931fe4365bcb57554aed45f35a4717f0ca4a009cafe80f95a812f3cea2
+Section: Tweaks
+Description: Lock your hidden photos with FaceID
+Author: ren7995
+Name: Anne
+
+Package: me.lightmann.quorra
+Version: 1.1.3-5
+Architecture: iphoneos-arm
+Maintainer: Lightmann
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, firmware (>= 12.0), firmware (<< 14.0)
+Filename: ./debs/me.lightmann.quorra_1.1.3-5_iphoneos-arm.deb
+Size: 33694
+MD5sum: 86121d446bc4c4cfb728462b954f94d8
+SHA1: 2d8ad0626a88d73a47750e55feca754c964b6bde
+SHA256: b28761690cc12b833fcfc2b39f64abc814a1000e10e9556ccd2967ffa2f67cc7
+Section: Tweaks
+Description: iOS 14's indicator dots for iOS 12 & 13
+Author: Lightmann
+Icon: https://raw.githubusercontent.com/L1ghtmann/Quorra/master/icon.png
+Name: Quorra
+
+Package: me.lightmann.texttime
+Version: 1.0.2.4-4
+Architecture: iphoneos-arm
+Maintainer: Lightmann
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
+Filename: ./debs/me.lightmann.texttime_1.0.2.4-4_iphoneos-arm.deb
+Size: 32774
+MD5sum: f476ffa6c2d0ce33662376c61b2046b1
+SHA1: 399c8e759ef7507cfc69178467f7d589a5294250
+SHA256: 3bc62f8b92f43e80e497028f113c57ae52ff1ef227035baf7403e031dd0db408
+Section: Tweaks
+Description: Display the time as text
+Author: Lightmann
+Icon: https://raw.githubusercontent.com/L1ghtmann/TextTime/master/icon.png
+Name: TextTime
+
+Package: me.lightmann.vinyl
+Version: 1.1.5-5
+Architecture: iphoneos-arm
+Maintainer: Lightmann
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
+Filename: ./debs/me.lightmann.vinyl_1.1.5-5_iphoneos-arm.deb
+Size: 57776
+MD5sum: b23adc532cc64ecd819092db4a4e3b02
+SHA1: fcf9bc39c40508b5bc3eadb01283e41cf19617c7
+SHA256: 8a2b770794b1dabf1f16bc74d3237c3858e77bb4c25e203a2681b06c16f8dc5f
+Section: Tweaks
+Description: A simplified look for the lockscreen music player!
+Author: Lightmann
+Icon: https://raw.githubusercontent.com/L1ghtmann/Vinyl/master/icon.png
+Name: Vinyl
+
+Package: me.luki.april
+Version: 2.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Luki
+Installed-Size: 892
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: com.midnightchips.bettersettings
+Filename: ./debs/me.luki.april_2.1-5+debug_iphoneos-arm.deb
+Size: 406696
+MD5sum: d9b7afd273ddfa1924f30c846d8d042a
+SHA1: d6af5334d3046aabd4257e85c0b3581be8f63caf
+SHA256: 80d66d9c9edcbf76bd8b30769163bbf449a2c67ac8ea764f861377047e45c366
+Section: Tweaks
+Description: Augment your settings app aesthetics to the next level on the fly
+Author: Luki
+Name: April
+
+Package: me.nepeta.axon
+Version: 1.4-5+debug
+Architecture: iphoneos-arm
+Maintainer: Baw Appie
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/me.nepeta.axon_1.4-5+debug_iphoneos-arm.deb
+Size: 184384
+MD5sum: c9b62eac30f9eb04b9d2dde3c503a405
+SHA1: 730b27d9c273574d7765acf1dd23ce6db902a9be
+SHA256: c5d00ffc9a13b19fb8d30006ad5e23dd83c9c779322759d2c5b5c48bdc2f0743
+Section: Tweaks
+Description: Priority Hub for iOS 11 and 12
+Author: Nepeta & Baw Appie
+Name: Axon
+
+Package: me.tale.panic
+Version: 1.1.2-4+debug
+Architecture: iphoneos-arm
+Maintainer: Aarnav Tale <aarnav@tale.me>
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader
+Conflicts: me.renai.panic
+Filename: ./debs/me.tale.panic_1.1.2-4+debug_iphoneos-arm.deb
+Size: 119892
+MD5sum: 6bd0691a263a93f6a2d80c95bb03f466
+SHA1: c6f72e775732ef3481d879ff1643320ccc6473e7
+SHA256: d0ca3cc3ca77c09cb752ec8ddc8b73d614a0246c926a828b5d145cc3ff0671b2
+Section: Tweaks
+Description: Stop! Don't panic, you can still fix this...
+Author: Renaitare <aarnav@tale.me>
+Depiction: https://apt.tale.me/me.tale.panic
+Icon: https://apt.tale.me/api/me.tale.panic.png
+Name: Panic!
+Sileodepiction: https://apt.tale.me/me.tale.panic.json
+
+Package: netskao.antiprofilesrevoke
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.antiprofilesrevoke_1.1-1_iphoneos-arm.deb
+Size: 4730
+MD5sum: 48c6e6cc0344fec44aeab60dd7a47f05
+SHA1: 4a2bbf68767649381109362a1b41f5d235348128
+SHA256: ec8f95f0684aa4162b0bc8f5fd54ac09dd2b6188d4fdca4ea00fd8e1c38389fa
+Section: Netskao-Tweaks
+Description: 越狱状态下忽略企业证书状态验证，使已经掉证书的应用依旧可以正常打开，支持iOS11-iOS14
+Author: Netskao
+Name: AntiProfilesRevoke
+
+Package: netskao.iconbundlid
+Version: 1.0-1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Nets <admin@initnil.com>
+Installed-Size: 140
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/netskao.iconbundlid_1.0-1-5+debug_iphoneos-arm.deb
+Size: 7712
+MD5sum: 5e989552997009018d4b478a0d410a93
+SHA1: 9780179fbf651608913003b566c8040853b5e09c
+SHA256: 223e2130ebeaff1f9bcfd727e35b53120de9cb85ae86e333d77a6da3c38645a9
+Section: Netskao-Tweaks
+Description: 在桌面长按图标唤出菜单，快捷拷贝该应用BundleID
+Author: Netskao <admin@initnil.com>
+Name: IconBundleID
+
+Package: org.thebigboss.swipeformore
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 228
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/org.thebigboss.swipeformore_1.2.1_iphoneos-arm.deb
+Size: 32926
+MD5sum: df9b9b66b275f646f3fea3d49d8a909d
+SHA1: 2e0507e912be73dc7572769a2d77e6d5bf74c47f
+SHA256: 21085991f6c129e9b29c973f46672e402ee7d73d32cf20f4eda3a641caa0032d
+Section: Tweaks
+Description: Manage packages in Cydia via swipe.
+Author: PoomSmart
+Name: SwipeForMore
+
+Package: org.wuffs.flickplus
+Version: 0.0.8-5+debug
+Architecture: iphoneos-arm
+Maintainer: Ninji <ninji@wuffs.org>
+Installed-Size: 444
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
+Filename: ./debs/org.wuffs.flickplus_0.0.8-5+debug_iphoneos-arm.deb
+Size: 49668
+MD5sum: 16c777c8b68ccbcb918cc0046713de1b
+SHA1: 8fdd59a1aa289ebda35aa3d959c3ed5ee5ec3773
+SHA256: dfc89b688f001a7c6fe24fe46688836f2dffa7607e3251a99b3248fbec62882e
+Section: Tweaks
+Description: iPad-like key flicks on iPhone (iOS 13)
+Author: Ninji <ninji@wuffs.org>
+Name: FlicksForAll
+
+Package: ru.rj.ftt
+Version: 0.8
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 412
+Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ru.rj.ftt_0.8_iphoneos-arm.deb
+Size: 58846
+MD5sum: 458e15e826d721d796ef88d088a48d49
+SHA1: 10a49daa1a28353fa4928bb7344109abe07eaf25
+SHA256: ac6caeb532bb23cb2f8deebc9f831b7072ee2ba0d8b2b265132080e7868363a7
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: wallpaperloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/wallpaperloader_1.0_iphoneos-arm.deb
+Size: 12234
+MD5sum: 942c0b556f9b453a8a9e4c268275fcbd
+SHA1: 30f53bec8fc3007933ba3072cbbc02d9c95aa20a
+SHA256: 986d387a25ad150fe865b39fe533554b8f0e0a14d72add6e2e8a489a08f71191
+Section: Tweaks
+Description: Add more default wallpapers!
+Author: Skitty
+Name: WallpaperLoader
+
+Package: weeb.lillie.accentcustom
+Version: 2.0.5-5+debug
+Architecture: iphoneos-arm
+Maintainer: Lillie
+Installed-Size: 420
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Conflicts: com.ivanc.accent
+Filename: ./debs/weeb.lillie.accentcustom_2.0.5-5+debug_iphoneos-arm.deb
+Size: 26786
+MD5sum: a3972f2ffbb448e116f88eb97cc094b3
+SHA1: 3970e499df7366cbcda20a5b52e3f158a9a245ab
+SHA256: 31b0ed7923dfeae4de78c9abb4ecd96c7e68d748bc2368abbf6e3cd9ab49f528
+Section: Tweaks
+Description: iOS Accent Colours In macOS Style
+Author: Lillie
+Depiction: https://repo.lillieweeb001.xyz/depictions/accentcustom.html
+Name: Accent Custom
+
+Package: xyz.skitty.ersatz
+Version: 1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 520
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.skitty.ersatz_1.0-4+debug_iphoneos-arm.deb
+Size: 61416
+MD5sum: fcb5d769e345835626f60bd65ffeb218
+SHA1: a2968a47183e98c1ec1afcbb8bdd71685938ce89
+SHA256: 1a65d86d308df0d90a4b69522c3bf2857a2961c59db87aae456394eb48954ca2
+Section: Tweaks
+Description: Replace any text, system-wide!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.ersatz
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Name: Ersatz
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.ersatz
 
