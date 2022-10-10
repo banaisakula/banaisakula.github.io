@@ -6,3 +6,6 @@
 ---
 - almost all tweak are make package on ios 13,and only test on ios 13,arm64e.
 - use this repository for free.
+
+credit
+- all these tweak developer. :)
