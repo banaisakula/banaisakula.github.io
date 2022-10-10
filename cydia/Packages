@@ -2344,27 +2344,6 @@ Description: Observe and reprogram running programs.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
 
-Package: ru.rejail.autotouch
-Version: 6.1.2k
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 107265
-Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
-Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
-Filename: ./debs/ru.rejail.autotouch.deb
-Size: 57804424
-MD5sum: 6bac56e2b0a528ab3e2d43fd109fce4e
-SHA1: 3d510efc6ab0d1f1ecf4dbf5e8b3949f0abfa99b
-SHA256: 1a09277f3f16c3aa6f40ebba9af752cff0ac5387bc562673e3ee9c8ce2328c68
-Section: Utilities
-Priority: optional
-Description: Автокликер для iOS
-Author: Kent Krantz <kentkrantz@gmail.com>
-Depiction: https://rejail.ru/depiction.php?file=autotouch
-Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
-Name: AutoTouch
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=autotouch
-
 Package: ru.rj.ayeris13
 Version: 1.012
 Architecture: iphoneos-arm
