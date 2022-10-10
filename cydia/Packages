@@ -2221,6 +2221,24 @@ Description: iPad-like key flicks on iPhone (iOS 13)
 Author: Ninji <ninji@wuffs.org>
 Name: FlicksForAll
 
+Package: re.frida.server
+Version: 16.0.1
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 52492
+Conflicts: re.frida.server64
+Filename: ./debs/re.frida.server_16.0.1_iphoneos-arm.deb
+Size: 15919684
+MD5sum: c92a230664169765f50b1e0903efa700
+SHA1: fdc7af774a269e3476516f6a4ebad584b94a1229
+SHA256: c5a4dc95f74642445ae64de5f3a1389c9fe1626a87c69e1a330c7c012da8cc86
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
 Package: ru.rj.ftt
 Version: 0.8
 Architecture: iphoneos-arm
