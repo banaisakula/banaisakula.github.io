@@ -573,6 +573,24 @@ Author: Donato Fiore
 Name: Suffisso
 
 Package: com.galacticdev.14pip
+Version: 1.0-10+debug
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.galacticdev.14pip_1.0-10+debug_iphoneos-arm.deb
+Size: 52584
+MD5sum: 18f9745f24c0272198a9161ed574d16d
+SHA1: c061e18311994b46d4e7087a0a939c10be4dd5d7
+SHA256: bbf39886f9b496133ebf45dd77707fe6f18b1a79127535fb0a8ef673901f043c
+Section: Tweaks
+Description: iOS 14 style PiP on iOS 13
+Author: Galactic Dev
+Depiction: https://galactic-dev.github.io/depictions/?p=com.galacticdev.14PiP
+Https: //github.com/Galactic-Dev/14PiP
+Name: 14PiP
+
+Package: com.galacticdev.14pip
 Version: 1.0-9+debug
 Architecture: iphoneos-arm
 Maintainer: Galactic Dev
