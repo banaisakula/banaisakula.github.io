@@ -1863,6 +1863,22 @@ Description: iOS accent colors in macOS style!
 Author: Ivan Cristina <ivancristina5@gmail.com>
 Name: Accent
 
+Package: com.jakeashacks.realcc
+Version: 0.0.4-1+debug
+Architecture: iphoneos-arm
+Maintainer: Jake James
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/com.jakeashacks.realcc_0.0.4-1+debug_iphoneos-arm.deb
+Size: 3672
+MD5sum: 1b8c34154fd3fcd676d3e485ec57e2ab
+SHA1: 508202e9f8925c12503b9de418d909b6d1928013
+SHA256: 26867dc9edb74e8e917f7ce6fc09d00f6bc557947aa62a21599e55a8d9080115
+Section: Tweaks
+Description: Actually disable WiFI and Bluetooth from CC in iOS 11.
+Author: Jake James
+Name: RealCC
+
 Package: com.jcsnider.volumesongskipper113
 Version: 1.0.2
 Architecture: iphoneos-arm
