@@ -1,8 +1,9 @@
 # pravate tweak repository
 ---
-- **for learn developing tweak**
+- **for learn developing tweak,keep update :)**
 ---
-## This repository include open source tweaks and some tweaks i love,to install and research the tweak.I create this repo.
+## This repository include open source tweaks 
+and some tweaks i love doesn't op,to install and research the tweak.I create this repo.
 ---
 - **almost all tweak are make package on ios 13,and only test on ios 13,arm64e.**
 - **use this repository for free.**
