@@ -1727,6 +1727,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: lovez
 Name: appstorenoads
 
+Package: com.yourcompany.learn
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 1088
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkcolourpicker
+Filename: ./debs/com.yourcompany.learn_0.0.1-15+debug_iphoneos-arm.deb
+Size: 134488
+MD5sum: 9c9378b3c516f4b0495bd966962c1384
+SHA1: 84f8ff291a06c2fb19d237d5f21c919677120745
+SHA256: 97655e4bc95d65b113038518f4fc4bbdcb6c959e373ea10ef44fc395f04aeafb
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: learn
+
 Package: com.yourcompany.respring
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
