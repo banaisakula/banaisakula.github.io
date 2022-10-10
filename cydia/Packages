@@ -1839,6 +1839,22 @@ Description: CallSlicer enables you to receive a third-party incoming call on yo
 Author: YuWd
 Name: CallSlicer
 
+Package: com.yulkytulky.taptaptiptaptime
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: YulkyTulky
+Installed-Size: 416
+Depends: mobilesubstrate
+Filename: ./debs/com.yulkytulky.taptaptiptaptime_1.0-1+debug_iphoneos-arm.deb
+Size: 211802
+MD5sum: 9ea73355adf974019a40775ebfd97b1f
+SHA1: 5aa96b6c6f4ece7578e14f531756db73e79d7ff7
+SHA256: 067cbc4b567a1cb999fd8bb4e052f652aefbb180ede505ea3595afdd42e7423a
+Section: Tweaks
+Description: Tap on the time to see the date in the status bar!
+Author: YulkyTulky
+Name: TapTapTipTapTime
+
 Package: com.yuosaf01.addsource
 Version: 2.3.1-4+debug
 Architecture: iphoneos-arm
