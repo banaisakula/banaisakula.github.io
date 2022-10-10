@@ -1879,6 +1879,22 @@ Description: Actually disable WiFI and Bluetooth from CC in iOS 11.
 Author: Jake James
 Name: RealCC
 
+Package: com.jakeashacks.say
+Version: 0.0.3-1
+Architecture: iphoneos-arm
+Maintainer: Jake James
+Installed-Size: 268
+Filename: ./debs/com.jakeashacks.say_0.0.3-1_iphoneos-arm.deb
+Size: 5828
+MD5sum: 6b31b678ddf98acc03c618d03d26cb15
+SHA1: 73dd8ff656a68d701914645d2daf6886cc7d2a5f
+SHA256: 87e3803f1e7f851f9cc99fdc1f461b6057a6f74707abcf66caef7799e5a47628
+Section: System
+Description: "say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7-11. Usage: say "your text here" (Must use quotes when message has spaces)
+Tag: role::hacker
+Author: Jake James
+Name: say
+
 Package: com.jcsnider.volumesongskipper113
 Version: 1.0.2
 Architecture: iphoneos-arm
