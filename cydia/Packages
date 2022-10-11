@@ -3299,6 +3299,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: lovez
 Name: tweak
 
+Package: com.yourcompany.tweak
+Version: 0.0.1-35+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.tweak_0.0.1-35+debug_iphoneos-arm.deb
+Size: 10954
+MD5sum: 3e2def8107f643d39bf9afc3a580c96e
+SHA1: df5a314c97e6602f3691ee072376cddb9f1dc692
+SHA256: 6cc5e9e7e6d7f99f61178b2a4bdb0ed8b9de1effc5ddbd45d6710358ffc8afce
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: tweak
+
 Package: com.yourcompany.wechat
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
