@@ -2816,6 +2816,22 @@ Description: 微信抢红包插件
 Author: 请叫我小锅
 Name: WeChatRedEnvelop
 
+Package: com.swiftyper.wechatredenvelop
+Version: 2.0.0-7+debug
+Architecture: iphoneos-arm
+Maintainer: 请叫我小锅
+Installed-Size: 512
+Depends: mobilesubstrate
+Filename: ./debs/com.swiftyper.wechatredenvelop_2.0.0-7+debug_iphoneos-arm.deb
+Size: 137998
+MD5sum: 09b567762e91e13f401f0b6b91c70cea
+SHA1: 719c17a5e70cc1957bd4ccf2d6aff5e4467fb6b7
+SHA256: 54b1b033cb66399c632699c004314a5f153b89ef9cdd3b97cdd405ec6e1d0766
+Section: Tweaks
+Description: 微信抢红包插件
+Author: 请叫我小锅
+Name: WeChatRedEnvelop
+
 Package: com.tomaszpoliszuk.alertcontroller
 Version: 1.4.2
 Architecture: iphoneos-arm
@@ -3282,6 +3298,22 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: lovez
 Name: tweak
+
+Package: com.yourcompany.wechat
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.wechat_0.0.1-2+debug_iphoneos-arm.deb
+Size: 1806
+MD5sum: 02f1f4d758ef8f413bbff2c2148ff647
+SHA1: b29a0613a781561738c8d6bbf3947964469e4d21
+SHA256: 56ed2b24d82b98d2d8cbf14ba520fc60331aca778770abd85351932f11419574
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: learn
 
 Package: com.yuigawada.callslicer
 Version: 1.4-4+debug
