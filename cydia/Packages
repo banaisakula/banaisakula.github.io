@@ -2736,6 +2736,38 @@ Description: 屏蔽所有版本建设银行的越狱检测和强制关闭弹窗�
 Author: Snail <snailsohi@gmail.com>
 Name: 建设银行屏蔽越狱检测
 
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: subdiox
+Installed-Size: 108
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1-1+debug_iphoneos-arm.deb
+Size: 14100
+MD5sum: 2b778fc29d185be253daf043487bf366
+SHA1: 12fc751831e863f3f72482464433e8018853085e
+SHA256: 657e7810554b6758ae1c278e090d8a09cffee9350d5b08a704821fc59e12ac01
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: subdiox
+Installed-Size: 108
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1-2+debug_iphoneos-arm.deb
+Size: 14106
+MD5sum: f7eb6cb52f1efe2d0047bcc4441dddc6
+SHA1: 0809fe7c14652e77d0d34d6ff4b37855945f4b1e
+SHA256: 9aba2f1ae7ac78bfeb5ab95103a9d099ec3942fc7c86deb3d99ed33e3ccb6518
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
 Package: com.swiftyper.wechatredenvelop
 Version: 2.0.0-5+debug
 Architecture: iphoneos-arm
