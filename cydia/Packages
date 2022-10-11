@@ -3267,6 +3267,22 @@ Description: An awesome Control Center module!
 Author: lovez
 Name: respring
 
+Package: com.yourcompany.tweak
+Version: 0.0.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.tweak_0.0.1-3+debug_iphoneos-arm.deb
+Size: 7556
+MD5sum: 54ea384f462d271297a3656ebca0df67
+SHA1: 6e6c18341e4fa1c43cf43c81e4dff72a15a1d35a
+SHA256: da9d8e0a4953d80528831b2445842ce3da7b856068cd3839b51bc1dcf640e046
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: tweak
+
 Package: com.yuigawada.callslicer
 Version: 1.4-4+debug
 Architecture: iphoneos-arm
