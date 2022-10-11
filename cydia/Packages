@@ -3497,6 +3497,23 @@ Tag: role::developer
 Author: Traurige
 Name: libKitten
 
+Package: io.github.iis4if.testalert
+Version: -2+debug
+Architecture: iphoneos-arm
+Maintainer: @iiS4iF
+Installed-Size: 708
+Depends: mobilesubstrate
+Filename: ./debs/io.github.iis4if.testalert_-2+debug_iphoneos-arm.deb
+Size: 132372
+MD5sum: 6ad2d1ee50bd4ff9c5a7b35ecb2b13e3
+SHA1: f39345ee2d3c5b59d7a1a0016ff80f56c1f2038e
+SHA256: c2558966620f06251d2e8280a219de61717cf81e34ba47b357f26267d8bbdd05
+Section: Tweaks
+Description: Using SCLAlertView for Theos
+Author: @iiS4iF
+Name: TestAlert
+Ve1sion: 1.0
+
 Package: jp.soh.freepip
 Version: 0.0.3-5+debug
 Architecture: iphoneos-arm
