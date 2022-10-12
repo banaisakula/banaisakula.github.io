@@ -3331,6 +3331,54 @@ Description: An awesome MobileSubstrate tweak!
 Author: lovez
 Name: learn
 
+Package: com.yourcompany.wechatantirecall
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.wechatantirecall_0.0.1-1+debug_iphoneos-arm.deb
+Size: 11056
+MD5sum: 1c9a6db74496cc8bc11a0b6968200b66
+SHA1: c7664067fcde5e90a08831f2e67e844d2609d16e
+SHA256: d067265f77333fb86805616c713968fe985baecead5dd6faf48875fcc428422c
+Section: Tweaks
+Description: 微信防撤回，用于学习制作应用内插件
+Author: lovez
+Name: wechatantirecall
+
+Package: com.yourcompany.wechatantirecall
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.wechatantirecall_0.0.1-2+debug_iphoneos-arm.deb
+Size: 11058
+MD5sum: 6ca454cf634bc48ce5b88c2dce6e97e1
+SHA1: 292dd9257c5c0a32a5608e84219533ec37e7c411
+SHA256: 3d3371efac857b74873af2e075267061188012f6faa63c019ccf7c06076ca935
+Section: Tweaks
+Description: 微信防撤回，用于学习制作应用内插件
+Author: lovez
+Name: wechatantirecall
+
+Package: com.yourcompany.wechatantirecall
+Version: 0.0.1-20+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.wechatantirecall_0.0.1-20+debug_iphoneos-arm.deb
+Size: 11434
+MD5sum: ffc37ce5ea3975145f7a2732fd2474b0
+SHA1: 33e8f93138c6a87de32f56001e8042b4a0374343
+SHA256: 11c258890b5911b42c40cf74093af482aa390a1cb9eff6e5e5283b773e4ae20a
+Section: Tweaks
+Description: 微信防撤回，用于学习制作应用内插件
+Author: lovez
+Name: wechatantirecall
+
 Package: com.yuigawada.callslicer
 Version: 1.4-4+debug
 Architecture: iphoneos-arm
