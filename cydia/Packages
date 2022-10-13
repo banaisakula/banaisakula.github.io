@@ -2521,6 +2521,23 @@ Author: samoht <totobighouse@gmail.com>
 Icon: file:///Library/PreferenceBundles/sanaPrefs.bundle/icon@3x.png
 Name: sana
 
+Package: com.samoht.sana
+Version: 1.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: samoht
+Installed-Size: 792
+Depends: mobilesubstrate, firmware (>= 13)
+Filename: ./debs/com.samoht.sana_1.1-1+debug_iphoneos-arm.deb
+Size: 448684
+MD5sum: 3f12380773880d9e4c9abea7a7523d41
+SHA1: 4dd6345ff1bf36f117a0bb28240ddb87c621f935
+SHA256: 03a86b4c41b3cfa1543c7176491ad4c99adbff470f9a34eaef3432c05829433c
+Section: Tweaks
+Description: Change the way your volume HUD looks like.
+Author: samoht <totobighouse@gmail.com>
+Icon: file:///Library/PreferenceBundles/sanaPrefs.bundle/icon@3x.png
+Name: sana
+
 Package: com.shemeshapps.notiblock
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader, applist
