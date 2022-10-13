@@ -1598,6 +1598,22 @@ Description: Colorize your status bar with your battery level!
 Author: HallieHax
 Name: BattiBar
 
+Package: com.haoict.redditnoads
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.redditnoads_0.0.1-1_iphoneos-arm.deb
+Size: 3540
+MD5sum: 38baa3e39ec35163f73eaf0515c16f8f
+SHA1: 51c8b8c1cc585357aa98cfecd2f62b4362a2d001
+SHA256: 2c28c12f1e76d148d963cd327dd32bc335af75e7ffed4686c4a55910cf1e697a
+Section: Tweaks
+Description: Hide "Promoted" post for Reddit app
+Author: Hao Nguyen
+Name: Reddit No Ads
+
 Package: com.hearse.3developer
 Version: 1.1-25+debug
 Architecture: iphoneos-arm
@@ -1800,12 +1816,12 @@ Architecture: iphoneos-arm
 Maintainer: Jake James
 Installed-Size: 268
 Filename: ./debs/com.jakeashacks.say_0.0.3-1_iphoneos-arm.deb
-Size: 5828
-MD5sum: 6b31b678ddf98acc03c618d03d26cb15
-SHA1: 73dd8ff656a68d701914645d2daf6886cc7d2a5f
-SHA256: 87e3803f1e7f851f9cc99fdc1f461b6057a6f74707abcf66caef7799e5a47628
+Size: 6756
+MD5sum: 2ad999b69318967f78fe23fc531c9138
+SHA1: ca9ef21c3c53ea9b1a8847c6bd61c029f36b44c6
+SHA256: 6213ea1cebae5a71cba1c123032890683ca9b2d14538ff9d7a21addcdf548be2
 Section: System
-Description: "say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7-11. Usage: say "your text here" (Must use quotes when message has spaces)
+Description: "say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7+. Usage: say "your text here" (Must use quotes when message has spaces)
 Tag: role::hacker
 Author: Jake James
 Name: say
@@ -1825,6 +1841,22 @@ Section: Tweaks
 Description: Use volume keys to go to previous/next media. (Hold up = Next Song | Hold down = Previous Song, Press Both = Toggle Play/Pause)
 Author: JC Snider
 Name: VolumeSongSkipper113
+
+Package: com.jeffresc.shortlook.plugin.contact-photo.wechat
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: JeffResc
+Installed-Size: 200
+Depends: mobilesubstrate, co.dynastic.ios.tweak.shortlook
+Filename: ./debs/com.jeffresc.shortlook.plugin.contact-photo.wechat_1.0.2_iphoneos-arm.deb
+Size: 10828
+MD5sum: 7577bb72b2ab464029650d6382fa5bcc
+SHA1: 5fa1ac6cfa49cf05195a77a87691347c169051c8
+SHA256: cc5f5dd3ae38e335adf3342b50c6f0627f30f041c54210c7dd9206d2a4065010
+Section: Tweaks (ShortLook)
+Description: Show WeChat users' profile pictures in ShortLook when you receive a WeChat notification!
+Author: Jeff Rescignano
+Name: WeChat Profile Pictures for ShortLook
 
 Package: com.johnzaro.animatedtablecells13
 Version: 1.0-2+debug
@@ -2106,6 +2138,56 @@ Description: Hide the dock blur.
 Author: Minazuki <minazukidev@gmail.com>
 Depiction: https://minazukidev.github.io/html/HideDockBlur13/index.html
 Name: HideDockBlur13
+
+Package: com.miwix.seeya
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Lavie Gariv
+Installed-Size: 432
+Pre-Depends: ws.hbang.common (>= 1.12)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.miwix.seeya_1.0.0_iphoneos-arm.deb
+Size: 69716
+MD5sum: 28fda17173238039fc05a43f35c8342c
+SHA1: 70e28e832b8753ddd2d534935ebbe05de9818cc2
+SHA256: e64e742b38e54ca74152a7f92e1dc6547bba2b8f36a28c3af54f9c90e6ec02d5
+Section: Tweaks
+Author: Lavie Gariv
+Depiction: https://lgariv.github.io/LaVie/depictions/?p=com.miwix.seeya
+Icon: https://lgariv.github.io/LaVie/depictions/com.miwix.seeya/icon.png
+Name: SeeYa
+
+Package: com.mtac.settingsip
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: MTAC
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.mtac.settingsip_0.0.1-1+debug_iphoneos-arm.deb
+Size: 25984
+MD5sum: 9ed98fa8ee9d5768a1ac96b9399cd5e0
+SHA1: 2f33aef1f5a7e25c24856b40377a6be1798372c3
+SHA256: 592e5776089c780ba1ae649a74015a5feb6a02114008b4944ddd8e0f4b63ebb0
+Section: Tweaks
+Description: The easiest way to get your WiFi IP address!
+Author: MTAC
+Name: SettingsIP
+
+Package: com.mtac.settingsip
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: MTAC
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.mtac.settingsip_0.0.1-2+debug_iphoneos-arm.deb
+Size: 25978
+MD5sum: 44825a62b2728b45f3048d202c95f429
+SHA1: cd810ca8d9d140b0f499ead4e52d270ae0f989b5
+SHA256: 53121820c9647696427378716a57503c1333f52f05fbbf7a9e81feba10b1a7cc
+Section: Tweaks
+Description: The easiest way to get your WiFi IP address!
+Author: MTAC
+Name: SettingsIP
 
 Package: com.mtac.settingsip
 Version: 0.0.1-7+debug
@@ -3334,6 +3416,22 @@ Description: Add the copied URL to Cydia sources automatically
 Author: yuosaf01 & 3bod_syr
 Name: Addsource
 
+Package: daniel.sharecuts
+Version: 0.0.3-1+debug
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/daniel.sharecuts_0.0.3-1+debug_iphoneos-arm.deb
+Size: 3314
+MD5sum: 3b0e030994082ffbf6a2fd727b6e6ce0
+SHA1: 836856c54adcd109650c89c01f263c4017fe9286
+SHA256: 61c80559e61bc93736dd1feb3ac916feb1b5ef42d82051fc4af58f97aec4aaea
+Section: Tweaks
+Description: Share/import shortcuts as files natively
+Author: daniel
+Name: Sharecuts
+
 Package: daniel.trustevaluator
 Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
@@ -4381,6 +4479,25 @@ Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.ersatz
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
 Name: Ersatz
 Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.ersatz
+
+Package: xyz.skitty.sixls
+Version: 1.0.5-2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 2312
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: ./debs/xyz.skitty.sixls_1.0.5-2-1+debug_iphoneos-arm.deb
+Size: 1469846
+MD5sum: 8b46c2ffc7944223fba369e0300285de
+SHA1: c516eb7270e52c470c5ee922c9adc0710156d910
+SHA256: bd67e01e3a6c8c9dc3ab387d9b61b1f4ee13d1188aa2edb68ecbb238156ce284
+Section: Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS)
+Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.sixls
 
 Package: xyz.skitty.strangerwp
 Version: 1.0
