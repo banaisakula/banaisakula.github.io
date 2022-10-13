@@ -523,6 +523,22 @@ Icon: file:///Library/PreferenceLoader/Preferences/lookin@2x.png
 Name: LookinLoader
 
 Package: com.chr1s.tapflash
+Version: 1.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Chr1s
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.chr1s.tapflash_1.0.2-1+debug_iphoneos-arm.deb
+Size: 5360
+MD5sum: 4eaab00ef8751ebbd9d352c1b698acc6
+SHA1: bbc56e2582200ddd9ebfb778421d20394ba590ee
+SHA256: beb212452fc6b14bf75bab8548dca6a16123d23b5a38960e65c53b033f371662
+Section: Tweaks
+Description: Press volume buttons simultaneously to enable flashlight!
+Author: Chr1s
+Name: TapFlash
+
+Package: com.chr1s.tapflash
 Version: 1.0.2-3+debug
 Architecture: iphoneos-arm
 Maintainer: Chr1s
@@ -587,6 +603,22 @@ Description: Turns screen brightness to 100% when the camera app is opened.
 Author: Christian Kosman <support@tripleaxis.net>
 Depiction: https://ckosmic.github.io/repo/depictions/?p=com.ckosmic.brightcam
 Name: BrightCam
+
+Package: com.cpdigitaldarkroom.taptapflip
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debs/com.cpdigitaldarkroom.taptapflip_1.4.1_iphoneos-arm.deb
+Size: 18406
+MD5sum: 2e2baf4912adb10defbef270e5323d60
+SHA1: 95b3f18b9bf5b62bcdb5a5d2326ea4f5d7f86c7e
+SHA256: 103659453ba056375151e84fd0d43a6134d954ca1b778ea990409187c87d043e
+Section: Tweaks
+Description: Double tap to flip camera
+Author: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+Name: TapTapFlip
 
 Package: com.crazymind90.millionpref
 Version: 0.0.1-4+debug
@@ -3271,6 +3303,38 @@ Section: Control Center (Modules)
 Description: An awesome Control Center module!
 Author: lovez
 Name: respring
+
+Package: com.yourcompany.superstarjb
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.superstarjb_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4024
+MD5sum: 1ffe4b55c567d75ec22f291ef084f428
+SHA1: 771f5cdbe46cbd70cb8103c5d681bb56d08811d1
+SHA256: 9a7557664bd699d12ed0d205c2d058230b02a93d17e8f8eea15b42c1d02d839b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: lovez
+Name: SuperStarJB
+
+Package: com.yourcompany.superstarjb
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: lovez
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourcompany.superstarjb_0.0.1-2+debug_iphoneos-arm.deb
+Size: 4110
+MD5sum: b00d84e278c58e826535dbef7a9e3ea8
+SHA1: 38d71c131ea3897ab018c59dbd8632fb8c388135
+SHA256: bb8570a0255a33d2aced30113f91dbc15c035c839302f53637747d974b677ffc
+Section: Tweaks
+Description: 超星学习通屏蔽越狱检测，去启动广告
+Author: lovez
+Name: SuperStarJB
 
 Package: com.yourcompany.tweak
 Version: 0.0.1-35+debug
