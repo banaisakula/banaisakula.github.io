@@ -33,6 +33,22 @@ Depiction: https://paisseon.github.io/info/peepreborn.html
 Icon: https://paisseon.github.io/info/peepreborn.png
 Name: Peep Reborn
 
+Package: babyyoda777
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: babyyoda777
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/babyyoda777_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3146
+MD5sum: a26cbad65a88bb028574c2c8d01ddab2
+SHA1: e9d4cff0ae6f5aa85966cb5561b7d5cd7e8aa576
+SHA256: bd835626bbde1456b7aec774681a88b10c602f03ebf493b3edc79bc01cd934fb
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: babyyoda777
+Name: HideDock14
+
 Package: cf.1di4r.hidedots
 Version: 1.5-5+debug
 Architecture: iphoneos-arm
@@ -65,6 +81,25 @@ Description: An awesome MobileSubstrate tweak!
 Author: 1di4r
 Icon: file:///Library/PreferenceBundles/spotlightizer_pref.bundle/icon@3x.png
 Name: Spotlightizer
+
+Package: com.artikus.neonboard
+Version: 1.0.13
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Replaces: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Provides: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Filename: ./debs/com.artikus.neonboard_1.0.13_iphoneos-arm.deb
+Size: 166150
+MD5sum: 4ed9aeeb97cf656227e3c9bc42ef6ebe
+SHA1: 40e27f207e09adbb3633d04be6e727d155f429d1
+SHA256: 4100c68ff179629f16d544607b7e3ebfd3291018fc22256f29d5c53afac904ce
+Section: Tweaks
+Description: A fully-featured lightweight theming engine for iOS 7 - 14.
+Author: ArtikusHG
+Name: NeonBoard
 
 Package: com.atar13.houdini
 Version: 1.4-6+debug
@@ -1839,6 +1874,22 @@ Description: Adds A Slide & Bounce Effect When Scrolling In Table Views
 Author: Johnzaro <johnzrgnns@gmail.com>
 Name: AnimatedTableCells13
 
+Package: com.johnzaro.hidehomebar13
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13)
+Filename: ./debs/com.johnzaro.hidehomebar13_1.0-1+debug_iphoneos-arm.deb
+Size: 3436
+MD5sum: af3be3e101ee651f7e50a26a2940e963
+SHA1: e84942292c28e012d4a2940c002cef24bb525cfc
+SHA256: 14f3964c0db58e69dce46ffcbd71547d08641550f06b23dfc3e7d5980f5720c0
+Section: Tweaks
+Description: Hides The Homebar System Wide
+Author: Johnzaro <johnzrgnns@gmail.com>
+Name: HideHomebar13
+
 Package: com.jschiefner.advancedbrightnessslider
 Version: 1.1.0-5+debug
 Architecture: iphoneos-arm
@@ -2038,6 +2089,23 @@ Description: Command line tool to update proxy settings
 Tag: role::hacker
 Author: Mikael
 Name: UpdateProxySettings
+
+Package: com.minazuki.hidedockblur13
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Minazuki <minazukidev@gmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.minazuki.hidedockblur13_0.0.1_iphoneos-arm.deb
+Size: 5414
+MD5sum: 1b2e5aea7320d5206eafef8eee2c5e26
+SHA1: 06e9ecf81a1308c5be249af31598c409c93673b7
+SHA256: bd64528864937ee17d5f15cf6a24a35fb9870c0f5bc26a39b978685d322e786a
+Section: Tweaks
+Description: Hide the dock blur.
+Author: Minazuki <minazukidev@gmail.com>
+Depiction: https://minazukidev.github.io/html/HideDockBlur13/index.html
+Name: HideDockBlur13
 
 Package: com.mtac.settingsip
 Version: 0.0.1-7+debug
@@ -2265,6 +2333,29 @@ Description: An annoying goose for your iDevice
 Author: pixelomer
 Name: MobileGoose
 
+Package: com.pixelomer.regreddit
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 300
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.pixelomer.regreddit_1.0-1+debug_iphoneos-arm.deb
+Size: 40178
+MD5sum: 67f306714c3ed2576a99ae4ab4370997
+SHA1: 9fc811da4b092379d5c18b8c9037360d48250a05
+SHA256: 43fb764508b7fad1bfe196e53912b8aa58e4d3a3948ebf47a7b54dc7af990cf7
+Section: Tweaks
+Homepage: https://github.com/pixelomer/Regreddit
+Description: Reddit Comment Deleter
+  Regreddit is an easy-to-use comment deleter for the official Reddit app for iOS.
+  This tweak can be accessed by pressing "Comment Deleter" in the user drawer on the left side of the Reddit app.
+  .
+  No specific version of Reddit is required. This tweak was tested with version 2020.34.0.
+  .
+  This tweak will work on any iOS version higher than iOS 7.0. However, the Reddit app (2020.34.0) itself requires at iOS 12.0 or higher.
+Author: pixelomer
+Name: Regreddit
+
 Package: com.ps.apppad
 Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
@@ -2387,10 +2478,10 @@ Conflicts: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGest
 Replaces: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
 Provides: com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Filename: ./debs/com.ryannair05.little11_1.2.1_iphoneos-arm.deb
-Size: 21274
-MD5sum: 82e29c7a80c1c0cfb07592599cf614d0
-SHA1: 282ca2f9b232b44aa871dda3cda4b550fb697fe8
-SHA256: 4b3ee7442806fa95a82abd2c2f9f33242cd956dded147fa9d0aff13f5f23cbbb
+Size: 21260
+MD5sum: a72cd32c27796aa83a45188071c8341a
+SHA1: 1f04ac9e1c630a776e50305a7c6fe0dcdcf18b0c
+SHA256: 241fb7184be17a53607e843ea4cae5772c39d1b671942b5193e65f89bf976aec
 Section: Tweaks
 Description: iPhone 11 gestures and more for iOS 13.
 Author: Ryan Nair
@@ -2501,6 +2592,22 @@ Section: Tweaks
 Description: Show photo resolution and disk usage in app
 Author: shepgoba
 Name: PhotoInfo
+
+Package: com.shepgoba.remove3doptions
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 13.2)
+Filename: ./debs/com.shepgoba.remove3doptions_1.0-1+debug_iphoneos-arm.deb
+Size: 10638
+MD5sum: 8c66feb0747e028afeb8a900fb4c2f60
+SHA1: 166893617ba7a5fdc15e9e880ca764f0c084de56
+SHA256: c40d1ee18636c729192033ed5b7ebd75bcac19bdbd910a39e2c93f456b92042a
+Section: Tweaks
+Description: Hide the delete option for apps on iOS 13.2
+Author: shepgoba
+Name: Remove3DOptions
 
 Package: com.shepgoba.remove3doptions
 Version: 1.0-8+debug
@@ -2999,6 +3106,25 @@ Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
 Name: libKuro
 Sileodepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
 
+Package: com.yan.hiddenlock14
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: yan
+Installed-Size: 988
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.2)
+Filename: ./debs/com.yan.hiddenlock14_1.1.3_iphoneos-arm.deb
+Size: 420490
+MD5sum: 18171f13a9d4f062379b1bc6b0b4f30a
+SHA1: 2417bd73de7d494a5533b846eb3acfe6863986fa
+SHA256: 6f44c4540013797cab5f1d9b8f62fc87dcf169a9be86696fc6bcc85cc10e31f4
+Section: Tweaks
+Description: Adds an authentication layer to the hidden album, just as how it should be.
+Author: yan
+Depiction: https://yandevelop.github.io/depic/HiddenLock14/index.html
+Icon: https://yandevelop.github.io/assets/icons/hl14/icon.png
+Name: HiddenLock14
+Sileodepiction: https://yandevelop.github.io/depic/HiddenLock14/hl14dp.json
+
 Package: com.yourcompany.appstorenoads
 Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
@@ -3357,6 +3483,22 @@ Section: Tweaks
 Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Picture on iOS unlimitedly.
 Author: Soh Satoh
 Name: FreePIP
+
+Package: jp.soh.jailbreakupdatechecker
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Installed-Size: 300
+Depends: mobilesubstrate (>= 0.9.5000), org.coolstar.jbupdater
+Filename: ./debs/jp.soh.jailbreakupdatechecker_0.0.2-1+debug_iphoneos-arm.deb
+Size: 23248
+MD5sum: 87324c6a052fc57cfa0b746363f9b1b6
+SHA1: 44630699e48ad7a7b9c59ee2e0cdde59de73959f
+SHA256: 83768d210ebcd4da832f417697b32ca47282c34542b338ff8c73abb0874b941e
+Section: Tweaks
+Description: Check for jailbreak updates
+Author: Soh Satoh
+Name: JailbreakUpdateChecker
 
 Package: love.litten.appareilphoto
 Version: 0.9-12+debug
@@ -3889,6 +4031,22 @@ Section: Tweaks
 Description: Lock your hidden photos with FaceID
 Author: ren7995
 Name: Anne
+
+Package: me.lightmann.quorra
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Lightmann
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/me.lightmann.quorra_1.0.0-1_iphoneos-arm.deb
+Size: 15246
+MD5sum: 3ad3224ac86ca56721be2ae3e6d98bc5
+SHA1: 514aa9052b7b0042e4d7f302c495be28b0a77beb
+SHA256: e6da064e9ee402866dcef8a3b0336a18700de6bdece7df04308edfefd7110046
+Section: Tweaks
+Description: Purpose: to help the User
+Author: Lightmann
+Name: Quorra
 
 Package: me.lightmann.quorra
 Version: 1.1.3-6
