@@ -3662,6 +3662,24 @@ Dev: Erast
 Icon: file:///Library/PreferenceBundles/VioletPreferences.bundle/icon_large.png
 Name: Violet
 
+Package: dr.erast.violet
+Version: 1.1.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Erast <applewormdev@gmail.com>
+Installed-Size: 5856
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17), com.mrgcgamer.libgcuniversal
+Filename: ./debs/dr.erast.violet_1.1.1-2+debug_iphoneos-arm.deb
+Size: 5333072
+MD5sum: 010e5e38a38c826f2ba42b6c359e452f
+SHA1: d31f452950bd23a5efc999f6c1f15a5062f31a18
+SHA256: 78a8a0cb1ae42d54ee38a6aabae9fa9569228b70ea2f0c2f2da698642796b7e3
+Section: Tweaks
+Description: The maid for your 📱
+Author: Erast <applewormdev@gmail.com>
+Dev: Erast
+Icon: file:///Library/PreferenceBundles/VioletPreferences.bundle/icon_large.png
+Name: Violet
+
 Package: io.github.iis4if.testalert
 Version: -2+debug
 Architecture: iphoneos-arm
