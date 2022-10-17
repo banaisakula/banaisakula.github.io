@@ -1646,6 +1646,36 @@ Description: Hide "Promoted" post for Reddit app
 Author: Hao Nguyen
 Name: Reddit No Ads
 
+Package: com.haoict.weatherplus
+Version: 1.1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 536
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.2.0), firmware (>= 10)
+Filename: ./debs/com.haoict.weatherplus_1.1.0-1+debug_iphoneos-arm.deb
+Size: 208246
+MD5sum: f7570177ef4333672eb756baf211255d
+SHA1: a509a4a5d8befcf70c80eea190f8edbba5b82c08
+SHA256: 027b6ea4aa200961e03a8fba7dfc4d44bf1cb7ea85323067034b5b4d8a8e0a83
+Section: Tweaks
+Description: Free & Open Source Tweak for Weather App
+ Free & Open Source Tweak for Weather App
+ Change log: https://github.com/haoict/weather-plus/releases
+ .
+ Features:
+ - Add the date next to each day
+ - Custom format (dd/MM, MM/dd, etc,...)
+ - Support iOS 10-13 & latest Weather app version
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Weather Plus
+
 Package: com.hearse.3developer
 Version: 1.1-25+debug
 Architecture: iphoneos-arm
@@ -3613,6 +3643,24 @@ Description: Collection of image and color calculations
 Tag: role::developer
 Author: Traurige
 Name: libKitten
+
+Package: dr.erast.violet
+Version: 1.1.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Erast <applewormdev@gmail.com>
+Installed-Size: 5856
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/dr.erast.violet_1.1.1-1+debug_iphoneos-arm.deb
+Size: 5333046
+MD5sum: 695ad7069ea940935151df79804fd11e
+SHA1: cb650107edc8bb7609a5a5e07db736e08bca8f3f
+SHA256: 9fe17319f255c046ea68a5cce4b840e4f21c4364da2f66af8d398340ad2f82ca
+Section: Tweaks
+Description: The maid for your 📱
+Author: Erast <applewormdev@gmail.com>
+Dev: Erast
+Icon: file:///Library/PreferenceBundles/VioletPreferences.bundle/icon_large.png
+Name: Violet
 
 Package: io.github.iis4if.testalert
 Version: -2+debug
