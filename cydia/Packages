@@ -3446,22 +3446,6 @@ Description: Tap on the time to see the date in the status bar!
 Author: YulkyTulky
 Name: TapTapTipTapTime
 
-Package: com.yulkytulky.taptaptiptaptime
-Version: 1.0-2+debug
-Architecture: iphoneos-arm
-Maintainer: YulkyTulky
-Installed-Size: 416
-Depends: mobilesubstrate
-Filename: ./debs/com.yulkytulky.taptaptiptaptime_1.0-2+debug_iphoneos-arm.deb
-Size: 211800
-MD5sum: f48ef0b16bfe48618bf2f644fda20c27
-SHA1: f812915660d5a3dc5038da62105696c74ebe6c65
-SHA256: b5fd727aa5cab56415ca9e1a310437f6a7e19088a339c6b2b65a01d8ffe31cce
-Section: Tweaks
-Description: Tap on the time to see the date in the status bar!
-Author: YulkyTulky
-Name: TapTapTipTapTime
-
 Package: com.yuosaf01.addsource
 Version: 2.3.1-4+debug
 Architecture: iphoneos-arm
